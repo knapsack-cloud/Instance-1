@@ -68,8 +68,8 @@ module.exports = configureKnapsack({
     }),
   ],
   cloud: {
-    siteId: 'ks-starter',
-    repoName: 'starter-demo',
+    siteId: 'Instance-1',
+    repoName: 'Instance-1',
     repoOwner: 'knapsack-cloud',
     baseBranch: 'main',
   },

@@ -1,4 +1,4 @@
-# Knapsack Starter Demo
+# Knapsack Instance-1
 
 ## Quick Start
 

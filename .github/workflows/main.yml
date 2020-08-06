@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build & Deploy
     env:
-      REPO_SLUG: knapsack-cloud/starter-demo
+      REPO_SLUG: knapsack-cloud/Instance-1
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
