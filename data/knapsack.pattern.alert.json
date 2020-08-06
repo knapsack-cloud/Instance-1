@@ -1,0 +1,356 @@
+{
+  "id": "alert",
+  "title": "Alerts",
+  "templates": [
+    {
+      "id": "twig",
+      "path": "../src/components/alert/alert.twig",
+      "alias": "@components/alert.twig",
+      "templateLanguageId": "twig",
+      "assetSetIds": [],
+      "demosById": {
+        "0LAYjwZ6": {
+          "id": "0LAYjwZ6",
+          "title": "Dismissible Alert",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "warning",
+              "isDismissible": true,
+              "message": "Content has been updated! <a  class=\"alert-link\" href=\"#\">Click Here to view your changes live!</a>",
+              "newProp": true
+            },
+            "slots": {}
+          }
+        },
+        "1kavb2wuZ": {
+          "id": "1kavb2wuZ",
+          "title": "Simple Example",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "success",
+              "isDismissible": true,
+              "message": "Hello there! This is an example of a simple alert. You could have more or less text if you want."
+            },
+            "slots": {}
+          }
+        },
+        "zEkyjXgKz": {
+          "id": "zEkyjXgKz",
+          "title": "Two line alert",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "danger",
+              "message": "DANGER — The action you are about to take cannot be reverted!<br /><a  href=\"\" class=\"alert-link\">Click here to cancel</a> | <a href=\"\" class=\"alert-link\">Proceed!</a>"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["0LAYjwZ6", "1kavb2wuZ", "zEkyjXgKz"],
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+          "type": "object",
+          "required": ["message"],
+          "properties": {
+            "message": { "type": "string", "description": "Accepts HTML" },
+            "type": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "secondary",
+                "success",
+                "danger",
+                "warning",
+                "info",
+                "light",
+                "dark"
+              ],
+              "default": "secondary"
+            },
+            "isDismissible": {
+              "title": "Is Dismissible?",
+              "description": "Alert is dismissible?",
+              "type": "boolean",
+              "default": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "react",
+      "path": "../src/components/alert/alert.tsx",
+      "templateLanguageId": "react",
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Additional Content Example",
+          "type": "data",
+          "data": {
+            "props": { "type": "success" },
+            "slots": {
+              "message": [
+                " <h4 class=\"alert-heading\">Well done!</h4><p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>"
+              ],
+              "footer": [
+                "<hr />",
+                "<p class=\"mb-0\">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>"
+              ]
+            }
+          },
+          "description": "Alerts can also contain additional HTML elements like headings, paragraphs and dividers."
+        },
+        "uJcuUQAh": {
+          "id": "uJcuUQAh",
+          "title": "With Footer CTA",
+          "type": "data",
+          "data": {
+            "props": { "type": "light" },
+            "slots": {
+              "message": [
+                "My message Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              ],
+              "footer": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "Ib85UZzPs"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main", "uJcuUQAh"],
+      "spec": {
+        "slots": {
+          "message": { "title": "message" },
+          "footer": { "title": "footer" }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+          "type": "object",
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "secondary",
+                "success",
+                "info",
+                "warning",
+                "danger",
+                "light",
+                "dark"
+              ],
+              "default": "primary"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "vue",
+      "title": "vue",
+      "path": "../src/components/alert/alert.vue",
+      "templateLanguageId": "vue",
+      "spec": { "isInferred": true },
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": { "type": "success" },
+            "slots": {
+              "default": ["<strong>Content has been updated!</strong>"]
+            }
+          }
+        },
+        "XCzU4BL953": {
+          "id": "XCzU4BL953",
+          "title": "New Example",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {},
+            "slots": {
+              "default": [
+                "Welcome new user! This dashboard will guide you through virtually aspect of our product. <a href=\"\">Click here to view the docs</a>"
+              ]
+            }
+          }
+        },
+        "GfcsDUCGe": {
+          "id": "GfcsDUCGe",
+          "title": "New Example",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": { "type": "warning" },
+            "slots": {
+              "default": [
+                "Warning! You have unsaved changes that will be lost if you leave this page!"
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main", "XCzU4BL953", "GfcsDUCGe"],
+      "slices": []
+    }
+  ],
+  "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "9ls7Tu58z",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "# Examples\n\nAlerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight required contextual classes (e.g., .alert-success). For inline dismissal, use the [alerts jQuery plugin](https://getbootstrap.com/docs/4.1/components/alerts/#dismissing)."
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "S_rI8ryme",
+          "blockId": "pattern-variations",
+          "data": {
+            "templateId": "twig",
+            "patternId": "alert",
+            "demoId": "1kavb2wuZ",
+            "variationId": "type",
+            "size": "full"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "Xt5jTvLUV",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "```html\n<div class=\"alert alert-primary\" role=\"alert\">\n  A simple primary alert—check it out!\n</div>\n<div class=\"alert alert-secondary\" role=\"alert\">\n  A simple secondary alert—check it out!\n</div>\n<div class=\"alert alert-success\" role=\"alert\">\n  A simple success alert—check it out!\n</div>\n<div class=\"alert alert-danger\" role=\"alert\">\n  A simple danger alert—check it out!\n</div>\n<div class=\"alert alert-warning\" role=\"alert\">\n  A simple warning alert—check it out!\n</div>\n<div class=\"alert alert-info\" role=\"alert\">\n  A simple info alert—check it out!\n</div>\n<div class=\"alert alert-light\" role=\"alert\">\n  A simple light alert—check it out!\n</div>\n<div class=\"alert alert-dark\" role=\"alert\">\n  A simple dark alert—check it out!\n</div>\n```"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "YTqGQ8a47",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "> ### Conveying meaning to assistive technologies\nUsing color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.\n\n"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "tz5XptUrN",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "# Link color\nUse the `.alert-link` utility class to quickly provide matching colored links within any alert."
+          }
+        },
+        {
+          "id": "U6Q7CEldd",
+          "blockId": "pattern-variations",
+          "data": {
+            "templateId": "twig",
+            "patternId": "alert",
+            "demoId": "zEkyjXgKz",
+            "variationId": "type",
+            "size": "full"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "dICNHQcjl",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "# Additional content\nAlerts can also contain additional HTML elements like headings, paragraphs and dividers."
+          }
+        },
+        {
+          "id": "ZbLE0Sgux",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "s",
+            "showSchemaForm": false,
+            "patternId": "alert",
+            "demoId": "main"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "-dPVDE7o-",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "```html\n<div class=\"alert alert-success\" role=\"alert\">\n  <h4 class=\"alert-heading\">Well done!</h4>\n  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>\n  <hr>\n  <p class=\"mb-0\">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>\n</div>\n```"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "iyVKfnRm-",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "# Dismissing\nUsing the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:\n\n- Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.\n- If you’re building our JavaScript from source, it [requires util.js](https://getbootstrap.com/docs/4.1/getting-started/javascript/#util). The compiled version includes this.\n- Add a dismiss button and the `.alert-dismissible` class, which adds extra padding to the right of the alert and positions the .close button.\n- On the dismiss button, add the `data-dismiss=\"alert\"` attribute, which triggers the JavaScript functionality. Be sure to use the <button> element with it for proper behavior across all devices.\n- To animate alerts when dismissing them, be sure to add the `.fade` and `.show` classes.\n\n  You can see this in action with a live demo:"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "MrhdWdpWg",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "twig",
+            "demoSize": "l",
+            "showSchemaForm": false,
+            "patternId": "alert",
+            "demoId": "0LAYjwZ6"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "dhnrigxAX",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "```html\n<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">\n  <strong>Holy guacamole!</strong> You should check in on some of those fields below.\n  <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n    <span aria-hidden=\"true\">&times;</span>\n  </button>\n</div>\n```"
+          },
+          "sliceWidth": "l"
+        },
+        {
+          "id": "RzU85m7ms",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "# JavaScript behavior\n### Triggers\nEnable dismissal of an alert via JavaScript:\n\n```js\n$('.alert').alert()\n```\n\nOr with `data` attributes on a button **within the alert**, as demonstrated above:\n\n```html\n<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n  <span aria-hidden=\"true\">&times;</span>\n</button>\n```\n\nNote that closing an alert will remove it from the DOM.\n\n### Methods\n\n|Method|Description|\n|:----------|:----------------|\n|`$().alert()` |Makes an alert listen for click events on descendant elements which have the `data-dismiss=\"alert\"` attribute. (Not necessary when using the data-api’s auto-initialization.)|\n|`$().alert('close')` | Closes an alert by removing it from the DOM. If the `.fade` and `.show` classes are present on the element, the alert will fade out before it is removed.|\n|`$().alert('dispose')` | Destroys an element’s alert.|\n\n\n```js\n$('.alert').alert('close')\n```\n\n### Events\nBootstrap’s alert plugin exposes a few events for hooking into alert functionality.\n\n|Event|Description|\n|:-------|:--------------|\n|`close.bs.alert\t`| This event fires immediately when the `close` instance method is called.|\n|`closed.bs.alert\t`| This event is fired when the alert has been closed (will wait for CSS transitions to complete).|\n\n```js\n$('#myAlert').on('closed.bs.alert', function () {\n  // do something…\n})\n```"
+          },
+          "sliceWidth": "l"
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" },
+    { "type": "template", "id": "twig" },
+    { "type": "template", "id": "vue" }
+  ],
+  "statuses": {
+    "design": "ready",
+    "react": "needs-updated",
+    "twig": "needs-updated",
+    "web-components": "unset",
+    "vue": "needs-updated"
+  }
+}

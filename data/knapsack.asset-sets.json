@@ -1,0 +1,43 @@
+{
+  "globalAssetSetIds": ["bootstrap", "material"],
+  "allAssetSets": {
+    "bootstrap": {
+      "id": "bootstrap",
+      "title": "Bootstrap",
+      "assets": [
+        { "src": "../ks-public/dist/index.css" },
+        { "src": "../ks-public/dist/design-tokens.css" },
+        { "src": "../ks-public/dist/ks-overrides.css" },
+        {
+          "src": "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+          "tagLocation": "head"
+        },
+        {
+          "src": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
+          "tagLocation": "head"
+        },
+        {
+          "src": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js",
+          "tagLocation": "head"
+        }
+      ]
+    },
+    "material": {
+      "id": "material",
+      "title": "Material",
+      "assets": [
+        { "src": "../ks-public/dist/material-demo.css" },
+        { "src": "../ks-public/dist/ks-overrides.css" }
+      ]
+    },
+    "web-components": {
+      "id": "web-components",
+      "title": "Web Components",
+      "assets": [
+        { "src": "../ks-public/dist/index.js", "tagLocation": "head" },
+        { "src": "../ks-public/dist/index.css" },
+        { "src": "../ks-public/dist/ks-overrides.css" }
+      ]
+    }
+  }
+}

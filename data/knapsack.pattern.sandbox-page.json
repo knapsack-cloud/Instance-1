@@ -1,0 +1,57 @@
+{
+  "id": "sandbox-page",
+  "title": "Sandbox Pages",
+  "templates": [
+    {
+      "id": "react",
+      "path": "../src/pages/sandbox-page/sandbox-page.tsx",
+      "templateLanguageId": "react",
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": { "title": "Sandbox Page Title" },
+            "slots": {
+              "gridItems": [],
+              "hero": [
+                {
+                  "patternId": "jumbotron",
+                  "templateId": "react",
+                  "demoId": "cEitity5"
+                }
+              ],
+              "pageTop": [
+                {
+                  "patternId": "alert",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main"],
+      "spec": {
+        "slots": {
+          "pageTop": { "title": "pageTop", "allowedPatternIds": ["alert"] },
+          "hero": { "title": "hero", "allowedPatternIds": ["jumbotron"] }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "Full pages to play around with",
+          "type": "object",
+          "required": [],
+          "properties": { "title": { "type": "string" } }
+        }
+      }
+    }
+  ],
+  "description": "Full pages to play around with",
+  "subPages": [],
+  "tabs": [{ "type": "template", "id": "react" }],
+  "demoSize": "portrait"
+}

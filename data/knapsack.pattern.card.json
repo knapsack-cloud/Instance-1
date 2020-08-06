@@ -1,0 +1,483 @@
+{
+  "id": "card",
+  "title": "Card",
+  "description": "Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.",
+  "demoSize": "m",
+  "demoWidths": [{ "width": 320 }],
+  "templates": [
+    {
+      "id": "vue",
+      "title": "Vue",
+      "templateLanguageId": "vue",
+      "assetSetIds": ["bootstrap"],
+      "path": "../src/components/card/card.vue",
+      "spec": { "isInferred": true },
+      "demos": ["primary", "jd0-PSmR1"],
+      "demosById": {
+        "primary": {
+          "id": "primary",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "slots": {
+              "default": [
+                "Some Text in a Slot which takes up  around two lines. Used to support the demo."
+              ],
+              "footer": [
+                { "patternId": "button", "templateId": "vue", "demoId": "a" }
+              ]
+            },
+            "props": {
+              "textAlign": "left",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture",
+              "cardTitle": "The Card Title",
+              "cardSubTitle": "eewrertertertert"
+            }
+          }
+        },
+        "jd0-PSmR1": {
+          "id": "jd0-PSmR1",
+          "title": "Main 2",
+          "type": "data",
+          "data": {
+            "slots": {
+              "default": [
+                "Some Text in a Slot which takes up  around two lines. Used to support the demo."
+              ],
+              "footer": [
+                {
+                  "patternId": "button",
+                  "templateId": "vue",
+                  "demoId": "A61_vQEW9R"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "center",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture",
+              "cardTitle": "Another Card Title. Check it!",
+              "cardSubTitle": "eewrertertertert"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Web Component",
+      "id": "web-component",
+      "templateLanguageId": "web-components",
+      "path": "../src/components/card/card.wc.js",
+      "alias": "bs-card",
+      "assetSetIds": ["web-components"],
+      "spec": {
+        "slots": {
+          "body": { "title": "Body" },
+          "default": {
+            "title": "Default",
+            "description": "Bottom of the card",
+            "allowedPatternIds": ["button"]
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "A Card for containing content",
+          "type": "object",
+          "title": "Card",
+          "required": ["cardTitle"],
+          "properties": {
+            "cardTitle": { "type": "string", "title": "Title" },
+            "cardSubTitle": { "type": "string", "title": "Body Sub Title" },
+            "imgSrc": { "type": "string", "title": "Image Source" }
+          }
+        }
+      },
+      "demosById": {
+        "primary": {
+          "id": "primary",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "slots": {
+              "default": [
+                {
+                  "patternId": "button",
+                  "templateId": "web-component",
+                  "demoId": "main"
+                },
+                {
+                  "patternId": "button",
+                  "templateId": "web-component",
+                  "demoId": "Nayeue1b"
+                }
+              ],
+              "body": [
+                "Some body text used within a slot. Supplied here to showcase flexibility."
+              ]
+            },
+            "props": {
+              "textAlign": "left",
+              "cardTitle": "Card Title",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture"
+            }
+          }
+        },
+        "UoX_ZOK0f": {
+          "id": "UoX_ZOK0f",
+          "title": "New Example",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "textAlign": "center",
+              "cardHeader": "Card header text!!!!!!!!!!!!!!",
+              "cardTitle": "This is a title. Not a very grabbing title.",
+              "cardSubTitle": "And this is body sub title content. Enjoy.",
+              "cardBody": "Card body text!!!!!!!!!!!!erererer",
+              "imgSrc": "https://placeimg.com/320/200/any"
+            },
+            "slots": {
+              "default": [
+                {
+                  "patternId": "button",
+                  "templateId": "web-component",
+                  "demoId": "Nayeue1b"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["primary", "UoX_ZOK0f"]
+    },
+    {
+      "title": "React",
+      "id": "react",
+      "templateLanguageId": "react",
+      "path": "../src/components/card/card.tsx",
+      "assetSetIds": ["bootstrap"],
+      "spec": {
+        "slots": {
+          "children": {
+            "title": "Children",
+            "description": "Bottom of the card",
+            "allowedPatternIds": ["button"]
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "Use Bootstrap’s custom card styles as a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.",
+          "type": "object",
+          "title": "Card",
+          "required": [],
+          "properties": {
+            "cardTitle": { "type": "string", "title": "Title" },
+            "cardSubTitle": { "type": "string", "title": "Body Sub Title" },
+            "cardBody": { "type": "string", "title": "Card Body Text" },
+            "textAlign": {
+              "type": "string",
+              "title": "Text Align",
+              "enum": ["left", "center", "right"],
+              "enumNames": ["Left", "Center", "Right"],
+              "default": "left"
+            },
+            "imgSrc": { "type": "string", "title": "Image Source" }
+          }
+        }
+      },
+      "demosById": {
+        "primary": {
+          "id": "primary",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "primary"
+                }
+              ],
+              "bloomSlot": []
+            },
+            "props": {
+              "textAlign": "center",
+              "cardTitle": "Hi everyone!",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture"
+            }
+          }
+        },
+        "oJ7Sy5zh": {
+          "id": "oJ7Sy5zh",
+          "title": "Right Align",
+          "type": "data",
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "secondary"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "right",
+              "cardTitle": "Always try to see things the right way",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture"
+            }
+          }
+        },
+        "1Rbqal5n": {
+          "id": "1Rbqal5n",
+          "title": "Confirmation Card",
+          "type": "data",
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "Ib85UZzPs"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "center",
+              "cardTitle": "Are you sure you want to do this?",
+              "imgAlt": "Nature Picture",
+              "cardSubTitle": "What you are about to do cannot be reversed"
+            }
+          }
+        },
+        "guoWqGd1": {
+          "id": "guoWqGd1",
+          "title": "Confirmation Card",
+          "type": "data",
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "primary"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "center",
+              "cardTitle": "Thanks!",
+              "imgAlt": "Nature Picture"
+            }
+          }
+        },
+        "GFnaYylud": {
+          "id": "GFnaYylud",
+          "title": "Main 2",
+          "type": "data",
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "bvTqR7oOf"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "left",
+              "cardTitle": "We don't need any buttons",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture"
+            }
+          }
+        },
+        "02LFLdPjk": {
+          "id": "02LFLdPjk",
+          "title": "Card w/ Template Slot",
+          "type": "data",
+          "data": {
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "C3WoEP4Z6-"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "left",
+              "cardTitle": "Hello from the future",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture"
+            }
+          }
+        }
+      },
+      "demos": [
+        "primary",
+        "1Rbqal5n",
+        "oJ7Sy5zh",
+        "guoWqGd1",
+        "GFnaYylud",
+        "02LFLdPjk"
+      ],
+      "slices": []
+    },
+    {
+      "title": "Twig",
+      "id": "twig",
+      "templateLanguageId": "twig",
+      "alias": "@components/card.twig",
+      "path": "../src/components/card/card.twig",
+      "assetSetIds": ["bootstrap"],
+      "spec": {
+        "slots": {
+          "footerSlot": {
+            "title": "footerSlot",
+            "description": "Bottom of the card",
+            "allowedPatternIds": ["button"]
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "A Card for containing content",
+          "type": "object",
+          "title": "Card",
+          "required": ["cardTitle", "cardBody"],
+          "properties": {
+            "cardHeader": { "type": "string", "title": "Card Header Text" },
+            "cardTitle": { "type": "string", "title": "Title" },
+            "cardSubTitle": { "type": "string", "title": "Body Sub Title" },
+            "cardBody": { "type": "string", "title": "Card Body Text" },
+            "textAlign": {
+              "type": "string",
+              "title": "Text Align",
+              "enum": ["left", "center", "right"],
+              "enumNames": ["Left", "Center", "Right"],
+              "default": "left"
+            },
+            "imgSrc": { "type": "string", "title": "Image Source" }
+          }
+        }
+      },
+      "demosById": {
+        "a": {
+          "id": "a",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "slots": {
+              "footerSlot": [
+                {
+                  "patternId": "button",
+                  "templateId": "twig",
+                  "demoId": "primary"
+                }
+              ],
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "twig",
+                  "demoId": "primary"
+                }
+              ]
+            },
+            "props": {
+              "textAlign": "left",
+              "cardTitle": "The Card Title",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "imgAlt": "Nature Picture",
+              "isDark": true
+            }
+          }
+        },
+        "b": {
+          "type": "data",
+          "title": "Stacked",
+          "id": "b",
+          "data": {
+            "props": {
+              "cardHeader": "Card Header",
+              "cardTitle": "Card Title",
+              "cardSubTitle": "Card SubTitle",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "list": {
+                "flush": true,
+                "listItems": [
+                  { "itemText": "Cras justo odio", "active": true },
+                  { "itemText": "Dapibus ac facilisis in" },
+                  { "itemText": "Morbi leo risus", "disabled": true },
+                  { "itemText": "Porta ac consectetur ac" },
+                  { "itemText": "Vestibulum at eros" }
+                ]
+              }
+            }
+          }
+        },
+        "r5X0biW25": {
+          "id": "r5X0biW25",
+          "title": "New Example",
+          "description": "A description",
+          "type": "data",
+          "data": {
+            "props": {
+              "textAlign": "center",
+              "cardHeader": "Card header looks like setup for a meme",
+              "imgSrc": "https://placeimg.com/320/200/any",
+              "cardTitle": "So we'll make it look even more like one by adding a percentage. More than 50% of nothing <strong><em>is</em></strong> actually <em>something</em>.",
+              "cardSubTitle": "- Anonyms",
+              "isDark": false
+            },
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "twig",
+                  "demoId": "primary"
+                }
+              ],
+              "footerSlot": [
+                {
+                  "patternId": "button",
+                  "templateId": "twig",
+                  "demoId": "primary"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["a", "b", "r5X0biW25"]
+    }
+  ],
+  "subPages": [],
+  "tabs": [
+    { "type": "template", "id": "react" },
+    { "type": "template", "id": "web-component" },
+    { "type": "template", "id": "twig" },
+    { "type": "template", "id": "vue" }
+  ],
+  "statuses": {
+    "react": "ready",
+    "twig": "needs-qa",
+    "web-components": "needs-approval",
+    "design": "ready",
+    "vue": "needs-updated"
+  }
+}

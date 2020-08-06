@@ -1,0 +1,131 @@
+{
+  "id": "jumbotron",
+  "title": "Jumbotron",
+  "templates": [
+    {
+      "id": "twig",
+      "path": "../src/components/jumbotron/jumbotron.twig",
+      "alias": "@components/jumbotron.twig",
+      "templateLanguageId": "twig",
+      "assetSetIds": [],
+      "demosById": {
+        "69TaVspO": {
+          "id": "69TaVspO",
+          "title": "Basic Jumbotron",
+          "description": "A basic jumbotron with a cta button.",
+          "type": "data",
+          "data": {
+            "props": {
+              "title": "Jumbotron",
+              "body": "Twenty four hour hydration and sheer color helps me look flawless even when faced with that unforgiving Jumbotron! - Lindsey Vonn",
+              "ctaText": "Button Example"
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": ["69TaVspO"],
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "required": ["title"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "title": "Title",
+              "default": "Title",
+              "description": "Main heading title in this jumbotron."
+            },
+            "body": {
+              "type": "string",
+              "title": "Body Copy",
+              "description": "This is the body copy that will appear in the jumbotron."
+            },
+            "ctaText": {
+              "type": "string",
+              "description": "Text inside the button."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "react",
+      "path": "../src/components/jumbotron/jumbotron.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": {
+            "title": "children",
+            "allowedPatternIds": ["card", "button"]
+          },
+          "subHead": { "title": "subHead", "allowedPatternIds": ["button"] }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "A lightweight, flexible component that can optionally extend the entire viewport to showcase key marketing messages on your site.",
+          "type": "object",
+          "required": ["title"],
+          "properties": {
+            "title": {
+              "type": "string",
+              "title": "Title",
+              "default": "Title",
+              "description": "Main heading title in this jumbotron."
+            },
+            "body": {
+              "type": "string",
+              "title": "Body Copy",
+              "description": "This is the body copy that will appear in the jumbotron."
+            }
+          }
+        }
+      },
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "With Button",
+          "type": "data",
+          "data": {
+            "props": {
+              "title": "Title",
+              "body": "Twenty four hour hydration and sheer color helps me look"
+            },
+            "slots": {
+              "children": [
+                {
+                  "patternId": "button",
+                  "templateId": "react",
+                  "demoId": "primary"
+                }
+              ]
+            }
+          }
+        },
+        "cEitity5": {
+          "id": "cEitity5",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "props": {
+              "title": "The Title",
+              "body": "Twenty four hour hydration and sheer color helps me look flawless even when faced with that unforgiving Jumbotron! - Lindsey Vonn"
+            },
+            "slots": { "children": [], "subHead": [] }
+          }
+        }
+      },
+      "demos": ["cEitity5", "main"]
+    }
+  ],
+  "description": "Lightweight, flexible component for showcasing hero unit style content.",
+  "subPages": [],
+  "tabs": [
+    { "type": "template", "id": "react" },
+    { "type": "template", "id": "twig" }
+  ],
+  "statuses": { "design": "ready", "react": "ready", "twig": "ready" }
+}
