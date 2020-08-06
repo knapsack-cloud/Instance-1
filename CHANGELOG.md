@@ -1,3 +1,10 @@
+# 1.0.0 (2020-08-06)
+
+
+### Features
+
+* update name of new Knapsack instance ([26eb330](https://github.com/knapsack-cloud/Instance-1/commit/26eb3303e2503a74d26195365287f2c881942f28))
+
 # [1.2.0](https://github.com/knapsack-cloud/ks-demo-bootstrap/compare/v1.1.0...v1.2.0) (2020-07-21)
 
 
