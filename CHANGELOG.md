@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.1.0...v1.2.0) (2020-08-06)
+
+
+### Features
+
+* add basic styles to examples ([4f8b718](https://github.com/knapsack-cloud/Instance-1/commit/4f8b7188c6b0c17efc724ad04a740e2573bcb149))
+
 # [1.1.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.0.0...v1.1.0) (2020-08-06)
 
 
