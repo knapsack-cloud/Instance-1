@@ -1,0 +1,28 @@
+.ex-card {
+  background-color: var(--color-primitives-default-bg);
+  border: 2px solid var(--color-primitives-card-border);
+  border-radius: 1em;
+  color: var(--color-text-default);
+  overflow: hidden;
+
+  &_img {
+    width: 100%;
+  }
+
+  &_body {
+    padding: 0.5em;
+  }
+
+  &_title {
+    margin: 0;
+    font-size: 1.2em;
+  }
+
+  &_subtitle {
+    margin: 0.5em 0 0;
+  }
+
+  &_text {
+    line-height: 1.4;
+  }
+}

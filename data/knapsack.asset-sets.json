@@ -1,1 +1,13 @@
-{ "globalAssetSetIds": [], "allAssetSets": {} }
+{
+  "globalAssetSetIds": ["default"],
+  "allAssetSets": {
+    "default": {
+      "id": "default",
+      "title": "Default",
+      "assets": [
+        { "src": "../ks-public/dist/index.css" },
+        { "src": "../ks-public/dist/design-tokens.css" }
+      ]
+    }
+  }
+}

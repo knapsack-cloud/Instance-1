@@ -108,12 +108,14 @@
             },
             "props": {
               "textAlign": "center",
-              "cardTitle": "Hi everyone!",
+              "cardTitle": "Card Title",
               "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
               "imgSrc": "https://placeimg.com/320/200/any",
-              "imgAlt": "Nature Picture"
+              "imgAlt": "Nature Picture",
+              "cardSubTitle": "Subtitle text"
             }
-          }
+          },
+          "description": "Standard card with a button."
         }
       },
       "demos": ["primary"],
@@ -140,7 +142,6 @@
           "title": "Card",
           "required": ["cardTitle", "cardBody"],
           "properties": {
-            "cardHeader": { "type": "string", "title": "Card Header Text" },
             "cardTitle": { "type": "string", "title": "Title" },
             "cardSubTitle": { "type": "string", "title": "Body Sub Title" },
             "cardBody": { "type": "string", "title": "Card Body Text" },
@@ -178,7 +179,8 @@
               "imgAlt": "Nature Picture",
               "isDark": true
             }
-          }
+          },
+          "description": "Standard card with a button."
         }
       },
       "demos": ["a"]

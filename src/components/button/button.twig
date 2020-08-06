@@ -1,16 +1,7 @@
-{% if url %}
-  <a
-    href="{{ url }}"
-    class="bootstrap btn {{ outlined ? 'btn-outline-' ~ style|default('primary') : 'btn-' ~ style|default('primary') }} {{ disabled ? 'disabled' : '' }} {{ size != md ? 'btn-' ~ size : '' }}"
-  >
-    {{ text }}
-  </a>
-{% else %}
-  <button
-    type="button"
-    class="bootstrap btn {{ outlined ? 'btn-outline-' ~ style|default('primary') : 'btn-' ~ style|default('primary') }} {{ size != md ? 'btn-' ~ size : '' }}"
-    {{ disabled ? 'disabled' : '' }}
-  >
-    {{ text }}
-  </button>
-{% endif %}
+<button
+  type="button"
+  class="ex-button {{ 'ex-button--' ~ style|default('primary') }} {{ size != m ? 'ex-button-size--' ~ size : '' }} {{ disabled ? 'ex-button--disabled' : '' }}"
+  {{ disabled ? 'disabled' : '' }}
+>
+  {{ text }}
+</button>

@@ -3,7 +3,7 @@
   "title": "Button",
   "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
   "statuses": {
-    "design": "ready",
+    "design": "needs-design",
     "react": "ready",
     "web-components": "ready",
     "twig": "ready"
@@ -66,21 +66,36 @@
         "primary": {
           "id": "primary",
           "type": "data",
-          "title": "Hello World",
-          "description": "Here is how what to use for the main call to action, try to limit these per page.",
+          "title": "Primary",
+          "description": "The primary action on the page. Advances the user to the next logical step. One per page max.",
           "data": {
-            "slots": { "children": ["Hello world! (click)"] },
+            "slots": { "children": ["Primary"] },
             "props": {
               "type": "primary",
-              "size": "md",
+              "size": "m",
               "disabled": false,
               "outlined": false,
               "handleClick": "() => alert('Hello world!')"
             }
           }
+        },
+        "UAsr_mdsK": {
+          "id": "UAsr_mdsK",
+          "title": "Secondary",
+          "description": "Standard button for general interactivity.",
+          "type": "data",
+          "data": {
+            "props": {
+              "type": "secondary",
+              "size": "m",
+              "disabled": false,
+              "handleClick": "() => alert('Hello world!')"
+            },
+            "slots": { "children": ["Secondary"] }
+          }
         }
       },
-      "demos": ["primary"],
+      "demos": ["primary", "UAsr_mdsK"],
       "slices": []
     },
     {
@@ -95,10 +110,9 @@
           "description": "A Button for clicking!",
           "type": "object",
           "title": "Button",
-          "required": ["text", "url"],
+          "required": ["text"],
           "properties": {
             "text": { "type": "string", "title": "Text" },
-            "url": { "type": "string", "title": "Url" },
             "style": {
               "type": "string",
               "title": "Style",
@@ -135,21 +149,35 @@
         "primary": {
           "id": "primary",
           "type": "data",
-          "title": "Primary style",
-          "description": "Here is how what to use for the main call to action, try to limit these per page.",
+          "title": "Primary",
+          "description": "The primary action on the page. Advances the user to the next logical step. One per page max.",
           "data": {
             "props": {
               "style": "primary",
               "size": "md",
               "disabled": false,
               "outlined": false,
-              "text": "The Button",
-              "url": "#"
+              "text": "The Button"
             }
+          }
+        },
+        "9eiex1beA": {
+          "id": "9eiex1beA",
+          "title": "Seconary",
+          "description": "Standard button for general interactivity.",
+          "type": "data",
+          "data": {
+            "props": {
+              "style": "secondary",
+              "size": "m",
+              "disabled": false,
+              "text": "Secondary"
+            },
+            "slots": {}
           }
         }
       },
-      "demos": ["primary"]
+      "demos": ["primary", "9eiex1beA"]
     },
     {
       "title": "Web Component",
@@ -158,32 +186,24 @@
       "path": "../src/components/button/button.wc.js",
       "alias": "bs-button",
       "spec": {
+        "slots": { "default": { "title": "Default" } },
         "props": {
           "$schema": "http://json-schema.org/draft-07/schema#",
+          "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
           "type": "object",
           "required": [],
           "properties": {
             "size": {
               "type": "string",
               "description": "Size of the button.",
-              "default": "md",
-              "enum": ["sm", "md", "lg"]
+              "default": "m",
+              "enum": ["s", "m", "l"]
             },
             "type": {
               "type": "string",
               "title": "Type",
               "default": "primary",
-              "enum": [
-                "primary",
-                "secondary",
-                "success",
-                "danger",
-                "warning",
-                "info",
-                "light",
-                "dark",
-                "link"
-              ],
+              "enum": ["primary", "secondary"],
               "enumNames": [
                 "Primary",
                 "Secondary",
@@ -200,30 +220,25 @@
               "type": "boolean",
               "title": "Disabled",
               "default": false
-            },
-            "outlined": {
-              "type": "boolean",
-              "title": "Outlined",
-              "default": false
             }
           }
-        },
-        "slots": { "default": { "title": "Default" } }
+        }
       },
       "demosById": {
         "main": {
           "id": "main",
-          "title": "main",
+          "title": "Primary",
           "type": "data",
           "data": {
             "props": {
-              "size": "md",
-              "type": "success",
+              "size": "m",
+              "type": "primary",
               "disabled": false,
               "outlined": false
             },
-            "slots": { "default": ["Some Button Text"] }
-          }
+            "slots": { "default": ["Primary"] }
+          },
+          "description": "Standard button for general interactivity."
         }
       },
       "demos": ["main"]

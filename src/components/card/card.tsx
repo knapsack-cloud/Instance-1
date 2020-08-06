@@ -3,29 +3,27 @@ import cn from 'classnames';
 import { CardProps } from '../../../dist/meta/react';
 
 const Card: React.FC<CardProps> = ({
-  textAlign = 'left',
   children,
   cardBody,
   cardSubTitle,
   cardTitle,
   imgSrc,
 }: CardProps) => {
-  const classes = cn('card', `text-${textAlign}`, {});
   return (
-    <div className={classes}>
+    <div className="ex-card">
       {imgSrc && (
         <img
-          alt="An example displayed inside a Bootstrap-themed card"
+          className="ex-card_img"
+          alt="An example image inside a card"
           src={imgSrc}
-          className="card-img-top"
         />
       )}
-      <div className="card-body">
-        <h5 className="card-title">{cardTitle}</h5>
+      <div className="ex-card_body">
+        <h5 className="ex-card_title">{cardTitle}</h5>
         {cardSubTitle && (
-          <h6 className="card-subtitle mb-2 text-muted">{cardSubTitle}</h6>
+          <h6 className="ex-card_subtitle">{cardSubTitle}</h6>
         )}
-        <p className="card-text">{cardBody}</p>
+        <p className="ex-card_text">{cardBody}</p>
         {children}
       </div>
     </div>
