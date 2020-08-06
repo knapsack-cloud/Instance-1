@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.0.0...v1.1.0) (2020-08-06)
+
+
+### Features
+
+* strip down content ([226b984](https://github.com/knapsack-cloud/Instance-1/commit/226b9843918783735bf9b407d3f7920c2970f035))
+
 # 1.0.0 (2020-08-06)
 
 
