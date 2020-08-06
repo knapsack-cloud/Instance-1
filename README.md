@@ -2,20 +2,20 @@
 
 ## Quick Start
 
-### Run Knapsack locally
+### Run locally
 
 ```bash
 yarn
 yarn start
 ```
 
-### Build Knapsack Client + components
+### Build Client + components
 
 ```bash
 yarn build
 ```
 
-### Serve Knapsack locally (after running `yarn build`)
+### Serve locally (after running `yarn build`)
 
 ```bash
 yarn serve

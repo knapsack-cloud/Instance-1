@@ -4,7 +4,6 @@ const TwigRenderer = require('@knapsack/renderer-twig');
 const {
   KnapsackWebComponentRenderer,
 } = require('@knapsack/renderer-web-components');
-const { KnapsackVueRenderer } = require('@knapsack/renderer-vue');
 const { KnapsackReactRenderer } = require('@knapsack/renderer-react');
 const {
   configure: configureChangelogMd,
@@ -32,11 +31,6 @@ module.exports = configureKnapsack({
       demoWrapperPath: join(__dirname, './demo-wrapper.jsx'),
     }),
     new KnapsackWebComponentRenderer(),
-    new KnapsackVueRenderer({
-      webpackConfig,
-      webpack,
-      babelConfig,
-    }),
     new TwigRenderer({
       src: {
         roots: ['./src'],
@@ -45,11 +39,6 @@ module.exports = configureKnapsack({
             id: 'components',
             recursive: true,
             paths: ['./src/components'],
-          },
-          {
-            id: 'pages',
-            recursive: true,
-            paths: ['./src/pages'],
           },
         ],
       },

@@ -1,29 +1,30 @@
 {
   "primary": [],
   "secondary": [
+    { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
+    {
+      "id": "/pages/intro",
+      "name": "Intro",
+      "path": "/pages/intro",
+      "parentId": "docs"
+    },
     {
       "id": "status-dashboard",
       "name": "Status Dashboard",
       "path": "/pages/status-dashboard",
-      "parentId": "root"
+      "parentId": "docs"
+    },
+    {
+      "id": "visual-pattern-list",
+      "name": "Visual Pattern List",
+      "path": "/pages/visual-pattern-list",
+      "parentId": "docs"
     },
     {
       "id": "components-asdf",
       "name": "Components",
       "path": "",
       "parentId": "root"
-    },
-    {
-      "id": "visual-pattern-list",
-      "name": "Visual Pattern List",
-      "path": "/pages/visual-pattern-list",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "alert",
-      "name": "Alert",
-      "path": "/pattern/alert",
-      "parentId": "components-asdf"
     },
     {
       "id": "/pattern/button",
@@ -38,42 +39,16 @@
       "parentId": "components-asdf"
     },
     {
-      "id": "jumbotron",
-      "name": "Jumbotron",
-      "path": "/pattern/jumbotron",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "table",
-      "name": "Table",
-      "path": "/pattern/table",
-      "parentId": "components-asdf"
-    },
-    { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
-    {
-      "id": "/pages/intro",
-      "name": "Intro",
-      "path": "/pages/intro",
-      "parentId": "docs"
-    },
-    {
-      "id": "/pages/accessibility",
-      "name": "Accessibility",
-      "path": "/pages/accessibility",
-      "parentId": "docs"
-    },
-    { "id": "pages", "name": "Pages", "path": "", "parentId": "root" },
-    {
-      "id": "sandbox-page",
-      "name": "Sandbox Pages",
-      "path": "/pattern/sandbox-page",
-      "parentId": "pages"
-    },
-    {
       "id": "design-tokens",
       "name": "Design Tokens",
       "path": "",
       "parentId": "root"
+    },
+    {
+      "id": "all-tokens",
+      "name": "All Tokens",
+      "path": "/pages/all-tokens",
+      "parentId": "design-tokens"
     },
     {
       "id": "/pages/colors",
@@ -82,27 +57,9 @@
       "parentId": "design-tokens"
     },
     {
-      "id": "/pages/breakpoints",
-      "name": "Breakpoints",
-      "path": "/pages/breakpoints",
-      "parentId": "design-tokens"
-    },
-    {
       "id": "/pages/spacing",
       "name": "Spacing",
       "path": "/pages/spacing",
-      "parentId": "design-tokens"
-    },
-    {
-      "id": "/pages/animation",
-      "name": "Animation",
-      "path": "/pages/animation",
-      "parentId": "design-tokens"
-    },
-    {
-      "id": "/pages/shadows",
-      "name": "Shadows",
-      "path": "/pages/shadows",
       "parentId": "design-tokens"
     }
   ]

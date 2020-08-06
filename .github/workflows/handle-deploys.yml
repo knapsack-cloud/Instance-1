@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Check
     env:
-      REPO_SLUG: knapsack-cloud/ks-demo-bootstrap
+      REPO_SLUG: knapsack-cloud/Instance-1
     steps:
       - name: Placeholder
         run: |

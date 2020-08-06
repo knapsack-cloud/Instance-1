@@ -31,8 +31,6 @@ export default {
   input: [
     './src/index.js',
     './src/tokens.js',
-    './src/ks-overrides.js',
-    './src/material-demo.js',
   ],
   output: {
     dir: ksPublicDist,
@@ -56,7 +54,6 @@ export default {
         impl: 'sass',
         includePaths: [
           path.resolve('../../node_modules'),
-          path.resolve('../../node_modules/bootstrap'),
         ],
       },
     }),

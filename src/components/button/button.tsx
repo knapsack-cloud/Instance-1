@@ -1,6 +1,7 @@
 import * as React from 'react';
 import cn from 'classnames';
 import { ButtonProps } from '../../../dist/meta/react';
+import './button.scss';
 
 const Button: React.FC<ButtonProps> = ({
   type = 'primary',
@@ -12,9 +13,8 @@ const Button: React.FC<ButtonProps> = ({
   icon,
 }: ButtonProps) => {
   const classes = cn(
-    'bootstrap',
-    'btn',
-    `btn-${size}`,
+    'ex-button',
+    `ex-button-${size}`,
     disabled && `disabled`,
     outlined ? `btn-outline-${type}` : `btn-${type}`,
     {},
