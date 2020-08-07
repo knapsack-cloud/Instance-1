@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.5.0...v1.6.0) (2020-08-07)
+
+
+### Features
+
+* update statuses ([d6f592b](https://github.com/knapsack-cloud/Instance-1/commit/d6f592b6bced74e6b3c4a03fdfa7a3cb47f741ba))
+
 # [1.5.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.4.0...v1.5.0) (2020-08-07)
 
 
