@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.3.0...v1.4.0) (2020-08-07)
+
+
+### Features
+
+* fix btn colors ([d14a159](https://github.com/knapsack-cloud/Instance-1/commit/d14a159fc0bf000032bd5eece767978ad1727d32))
+
 # [1.3.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.2.0...v1.3.0) (2020-08-07)
 
 
