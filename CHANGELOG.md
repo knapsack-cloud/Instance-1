@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.2.0...v1.3.0) (2020-08-07)
+
+
+### Features
+
+* update content to be nicer ([dd4f0ab](https://github.com/knapsack-cloud/Instance-1/commit/dd4f0aba18833cdc8a0c8d5f80940523711fd0f7))
+
 # [1.2.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.1.0...v1.2.0) (2020-08-06)
 
 
