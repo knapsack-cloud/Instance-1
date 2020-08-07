@@ -197,7 +197,7 @@
   "statuses": {
     "react": "ready",
     "twig": "ready",
-    "web-components": "needs-dev",
+    "web-components": "ready",
     "design": "needs-design",
     "vue": "needs-updated"
   }

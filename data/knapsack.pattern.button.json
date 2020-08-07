@@ -5,7 +5,7 @@
   "statuses": {
     "design": "needs-design",
     "react": "ready",
-    "web-components": "needs-dev",
+    "web-components": "ready",
     "twig": "ready"
   },
   "demoSize": "s",
