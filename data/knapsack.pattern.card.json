@@ -108,11 +108,11 @@
             },
             "props": {
               "textAlign": "center",
-              "cardTitle": "Card Title",
-              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-              "imgSrc": "https://placeimg.com/320/200/any",
+              "cardTitle": "A Quick Card Primer",
+              "cardBody": "Cards are great for sectioning content in a layout. They inform visitors of various pathways they could take to find what they need.",
+              "imgSrc": "https://placeimg.com/320/200/tech/grayscale",
               "imgAlt": "Nature Picture",
-              "cardSubTitle": "Subtitle text"
+              "cardSubTitle": "For those seeking to display content."
             }
           },
           "description": "Standard card with a button."
@@ -194,9 +194,9 @@
   ],
   "statuses": {
     "react": "ready",
-    "twig": "needs-qa",
-    "web-components": "needs-approval",
-    "design": "ready",
+    "twig": "ready",
+    "web-components": "needs-dev",
+    "design": "needs-design",
     "vue": "needs-updated"
   }
 }

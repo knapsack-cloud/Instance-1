@@ -1,5 +1,8 @@
 module.exports = {
   spacing: {
+    xxs: {
+      value: '2px',
+    },
     xs: {
       value: '4px',
     },

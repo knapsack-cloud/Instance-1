@@ -1,7 +1,7 @@
 .ex-card {
-  background-color: var(--color-primitives-default-bg);
-  border: 2px solid var(--color-primitives-card-border);
-  border-radius: 1em;
+  background-color: var(--color-layout-default-bg);
+  border: var(--spacing-xxs) solid var(--color-layout-card-border);
+  border-radius: var(--spacing-s);
   color: var(--color-text-default);
   overflow: hidden;
 
@@ -10,7 +10,7 @@
   }
 
   &_body {
-    padding: 0.5em;
+    padding: var(--spacing-m);
   }
 
   &_title {
@@ -19,7 +19,7 @@
   }
 
   &_subtitle {
-    margin: 0.5em 0 0;
+    margin: var(--spacing-s) 0 0;
   }
 
   &_text {

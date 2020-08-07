@@ -5,16 +5,28 @@ slices:
     blockId: markdown-slice
     data:
       md: >-
-        ### Welcome
+        ## Welcome
 
 
         Have a look around this example Knapsack instance. It comes with a
         couple basic components and some design tokens.
 
 
+        ### Things To Do
+
+
+        If you login, you can experiment with editing content and embedding
+        resources via content blocks.
+
+
         Try editing design tokens in the `./src/design-tokens` folder, or
         otherwise experiment with styling the components, or adding your own.
+
+
+        The components available out of the box are:
     sliceWidth: l
+  - id: ZDKAB4IfW
+    blockId: pattern-list-block
 description: >-
   Get started with Knapsack. The design system platform for ambitious product
   teams.

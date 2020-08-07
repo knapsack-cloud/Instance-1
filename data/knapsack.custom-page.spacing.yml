@@ -9,3 +9,4 @@ slices:
         tags: []
       demo:
         id: spacing
+description: Spacing tokens. Find and modify them in ./src/design-tokens/spacing.js

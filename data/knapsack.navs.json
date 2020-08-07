@@ -15,12 +15,6 @@
       "parentId": "docs"
     },
     {
-      "id": "visual-pattern-list",
-      "name": "Visual Pattern List",
-      "path": "/pages/visual-pattern-list",
-      "parentId": "docs"
-    },
-    {
       "id": "components-asdf",
       "name": "Components",
       "path": "",

@@ -1,61 +1,35 @@
 id: colors
 title: Colors
 slices:
-  - id: 1Kf3e4rM
+  - id: rjeZIIQ46
+    blockId: markdown-slice
+    data:
+      md: '## Layout'
+  - id: nJmXDmc6N
     blockId: design-token-slice
     data:
       tokens:
-        tags:
-          - core
+        tags: []
         category: color
+        name: ''
       demo:
         id: color-swatch
-    sliceWidth: l
-  - id: 10dd4wVg
+  - id: oVnVGxuy8
     blockId: markdown-slice
     data:
-      md: >-
-        # Usage
-
-        Copy the variable from the color names below; for example the
-        `bs-color-core-blue` color is used like this:
-
-
-        ```scss
-
-        .my-class {
-          background-color: $bs-color-core-blue;
-        }
-
-        ```
-
-
-        # Brand Colors
-    sliceWidth: m
-  - id: 4W-JzSu2
-    blockId: markdown-slice
-    data:
-      md: '## Text Colors'
+      md: '## Text'
   - id: mk_pmK7Z
     blockId: design-token-slice
     data:
       tokens:
         tags:
-          - message
+          - primitives
+          - text
         category: color
+        name: text
       demo:
         id: text-color
+      md: |
+        Test
     sliceWidth: l
-  - id: n8wtu57R
-    blockId: markdown-slice
-    data:
-      md: '# All Colors'
-  - id: mq5Qcifm
-    blockId: design-token-slice
-    data:
-      tokens:
-        category: color
-        tags: []
-      demo:
-        id: color-swatch
-    sliceWidth: l
+description: Color tokens. Find and modify them in ./src/design-tokens/color.js

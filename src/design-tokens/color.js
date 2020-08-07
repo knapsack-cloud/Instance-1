@@ -1,7 +1,8 @@
 // Core Color Values
-const primitives = {
+const layout = {
   defaultBg: { value: '#FFFFFF' },
   primary: { value: '#0075fe' },
+  primaryHover: { value: '#0068ea' },
   secondary: { value: '#555555' },
   cardBorder: { value: '#DDDDDD' },
 };
@@ -13,7 +14,7 @@ const text = {
 
 module.exports = {
   color: {
-    primitives,
+    layout,
     text
   },
 };
