@@ -1,8 +1,8 @@
 // Core Color Values
 const layout = {
   defaultBg: { value: '#FFFFFF' },
-  primary: { value: '#0075fe' },
-  primaryHover: { value: '#0068ea' },
+  primary: { value: '#004fac' },
+  primaryHover: { value: '#0068e1' },
   secondary: { value: '#555555' },
   cardBorder: { value: '#DDDDDD' },
 };

@@ -3,7 +3,7 @@
   border: 2px solid transparent;
   border-radius: var(--spacing-xs);
   color: var(--color-text-default);
-  padding: calc(var(--spacing-m) - var(--spacing-xxs)) calc(var(--spacing-l) - var(--spacing-xxs));
+  padding: calc(var(--spacing-s) - var(--spacing-xxs)) calc(var(--spacing-m) - var(--spacing-xxs));
   line-height: 1.4;
   cursor: pointer;
   transition:
@@ -31,17 +31,15 @@
     }
   }
 
-  // &--size-s {
-  //   padding: 0 1em;
-  //   line-height: var(--spacing-l);
-  //   height: var(--spacing-l);
-  // }
+  &--size-s {
+    font-size: 0.85em;
+    padding: calc(var(--spacing-xs) - var(--spacing-xxs)) calc(var(--spacing-s) - var(--spacing-xxs));
+  }
 
-  // &--size-l {
-  //   padding: 0 2em;
-  //   line-height: var(--spacing-xxl);
-  //   height: var(--spacing-xxl);
-  // }
+  &--size-l {
+    font-size: 1.2em;
+    padding: calc(var(--spacing-m) - var(--spacing-xxs)) calc(var(--spacing-l) - var(--spacing-xxs));
+  }
 
   &--disabled {
     cursor: not-allowed;
