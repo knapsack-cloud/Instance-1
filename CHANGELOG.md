@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.4.0...v1.5.0) (2020-08-07)
+
+
+### Features
+
+* fix web-components ([3fd1516](https://github.com/knapsack-cloud/Instance-1/commit/3fd15163bb17f3a911673791db44ed359b298987))
+
 # [1.4.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.3.0...v1.4.0) (2020-08-07)
 
 
