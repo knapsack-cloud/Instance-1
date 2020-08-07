@@ -6,7 +6,8 @@
       "title": "Default",
       "assets": [
         { "src": "../ks-public/dist/index.css" },
-        { "src": "../ks-public/dist/design-tokens.css" }
+        { "src": "../ks-public/dist/design-tokens.css" },
+        { "src": "../ks-public/dist/index.js" }
       ]
     }
   }

@@ -6,64 +6,6 @@
   "demoWidths": [{ "width": 320 }],
   "templates": [
     {
-      "title": "Web Component",
-      "id": "web-component",
-      "templateLanguageId": "web-components",
-      "path": "../src/components/card/card.wc.js",
-      "alias": "bs-card",
-      "spec": {
-        "slots": {
-          "body": { "title": "Body" },
-          "default": {
-            "title": "Default",
-            "description": "Bottom of the card",
-            "allowedPatternIds": ["button"]
-          }
-        },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "A Card for containing content",
-          "type": "object",
-          "title": "Card",
-          "required": ["cardTitle"],
-          "properties": {
-            "cardTitle": { "type": "string", "title": "Title" },
-            "cardSubTitle": { "type": "string", "title": "Body Sub Title" },
-            "imgSrc": { "type": "string", "title": "Image Source" }
-          }
-        }
-      },
-      "demosById": {
-        "primary": {
-          "id": "primary",
-          "title": "Main",
-          "type": "data",
-          "data": {
-            "slots": {
-              "default": [
-                {
-                  "patternId": "button",
-                  "templateId": "web-component",
-                  "demoId": "main"
-                }
-              ],
-              "body": [
-                "Some body text used within a slot. Supplied here to showcase flexibility."
-              ]
-            },
-            "props": {
-              "textAlign": "left",
-              "cardTitle": "Card Title",
-              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-              "imgSrc": "https://placeimg.com/320/200/any",
-              "imgAlt": "Nature Picture"
-            }
-          }
-        }
-      },
-      "demos": ["primary"]
-    },
-    {
       "title": "React",
       "id": "react",
       "templateLanguageId": "react",
@@ -122,6 +64,65 @@
       "slices": []
     },
     {
+      "title": "Web Component",
+      "id": "web-component",
+      "templateLanguageId": "web-components",
+      "path": "../src/components/card/card.wc.js",
+      "alias": "bs-card",
+      "spec": {
+        "slots": {
+          "body": { "title": "Body" },
+          "default": {
+            "title": "Default",
+            "description": "Bottom of the card",
+            "allowedPatternIds": ["button"]
+          }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "A Card for containing content",
+          "type": "object",
+          "title": "Card",
+          "required": ["cardTitle"],
+          "properties": {
+            "cardTitle": { "type": "string", "title": "Title" },
+            "cardSubTitle": { "type": "string", "title": "Body Sub Title" },
+            "imgSrc": { "type": "string", "title": "Image Source" }
+          }
+        }
+      },
+      "demosById": {
+        "primary": {
+          "id": "primary",
+          "title": "Main",
+          "type": "data",
+          "data": {
+            "slots": {
+              "default": [
+                {
+                  "patternId": "button",
+                  "templateId": "web-component",
+                  "demoId": "main"
+                }
+              ],
+              "body": [
+                "Cards are great for sectioning content in a layout. They inform visitors of various pathways they could take to find what they need."
+              ]
+            },
+            "props": {
+              "textAlign": "left",
+              "cardTitle": "A Quick Card Primer",
+              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+              "imgSrc": "https://placeimg.com/320/200/tech/grayscale",
+              "imgAlt": "Nature Picture",
+              "cardSubTitle": "For those seeking to display content."
+            }
+          }
+        }
+      },
+      "demos": ["primary"]
+    },
+    {
       "title": "Twig",
       "id": "twig",
       "templateLanguageId": "twig",
@@ -173,11 +174,12 @@
             },
             "props": {
               "textAlign": "left",
-              "cardTitle": "The Card Title",
-              "cardBody": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-              "imgSrc": "https://placeimg.com/320/200/any",
+              "cardTitle": "A Quick Card Primer",
+              "cardBody": "Cards are great for sectioning content in a layout. They inform visitors of various pathways they could take to find what they need.",
+              "imgSrc": "https://placeimg.com/320/200/tech/grayscale",
               "imgAlt": "Nature Picture",
-              "isDark": true
+              "isDark": true,
+              "cardSubTitle": "For those seeking to display content."
             }
           },
           "description": "Standard card with a button."

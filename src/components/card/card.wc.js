@@ -1,33 +1,36 @@
-import { LitElement, customElement, property, html } from 'lit-element';
+import { LitElement, unsafeCSS, customElement, property, html } from 'lit-element';
+import cardStyles from './card.scss';
 
 @customElement('bs-card')
 export class MyButton extends LitElement {
-  @property() textAlign = 'left';
-
   @property() imgSrc = '';
 
   @property() cardTitle = '';
 
   @property() cardSubTitle = '';
 
+  static get styles() {
+    return [
+      unsafeCSS(cardStyles)
+    ];
+  };
+
   render() {
-    const classes = ['card', `text-${this.textAlign}`].join(' ');
     return html`
-      <link rel="stylesheet" href="/dist/index.css" />
-      <div class="${classes}">
+      <div class="ex-card">
         ${this.imgSrc
-          ? html` <img class="card-img-top" src="${this.imgSrc}" /> `
+          ? html` <img class="ex-card_img" src="${this.imgSrc}" /> `
           : ''}
-        <div class="card-body">
-          <h5 class="card-title">${this.cardTitle}</h5>
+        <div class="ex-card_body">
+          <h5 class="ex-card_title">${this.cardTitle}</h5>
           ${this.cardSubTitle
             ? html`
-                <h6 class="card-subtitle mb-2 text-muted">
+                <h6 class="ex-card_subtitle">
                   ${this.cardSubTitle}
                 </h6>
               `
             : ''}
-          <p class="card-text">
+          <p class="ex-card_text">
             ${this.cardBody}
             <slot name="body"></slot>
           </p>

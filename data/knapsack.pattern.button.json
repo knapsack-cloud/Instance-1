@@ -184,7 +184,7 @@
       "id": "web-component",
       "templateLanguageId": "web-components",
       "path": "../src/components/button/button.wc.js",
-      "alias": "bs-button",
+      "alias": "ex-button",
       "spec": {
         "slots": { "default": { "title": "Default" } },
         "props": {
@@ -239,9 +239,48 @@
             "slots": { "default": ["Primary"] }
           },
           "description": "Standard button for general interactivity."
+        },
+        "F5h2DwUlJ": {
+          "id": "F5h2DwUlJ",
+          "title": "Secondary",
+          "type": "data",
+          "data": {
+            "props": {
+              "size": "m",
+              "type": "secondary",
+              "disabled": false,
+              "outlined": false
+            },
+            "slots": { "default": ["Secondary"] }
+          },
+          "description": "Standard button for general interactivity."
         }
       },
-      "demos": ["main"]
+      "demos": ["main", "F5h2DwUlJ"],
+      "slices": [
+        {
+          "id": "qwfqhASTx",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "landscape",
+            "showSchemaForm": false,
+            "patternId": "button",
+            "demoId": "primary"
+          }
+        },
+        {
+          "id": "Te8FQoYKx",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "web-component",
+            "showSchemaForm": false,
+            "demoSize": "landscape",
+            "patternId": "button",
+            "demoId": "main"
+          }
+        }
+      ]
     }
   ],
   "subPages": [],

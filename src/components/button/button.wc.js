@@ -1,4 +1,5 @@
-import { LitElement, css, customElement, property, html } from 'lit-element';
+import { LitElement, unsafeCSS, customElement, property, html } from 'lit-element';
+import buttonStyles from './button.scss';
 
 @customElement('ex-button')
 export class MyButton extends LitElement {
@@ -13,7 +14,14 @@ export class MyButton extends LitElement {
   @property({
     type: Boolean,
   })
+
   disabled = false;
+
+  static get styles() {
+    return [
+      unsafeCSS(buttonStyles)
+    ];
+  };
 
   render() {
     const classes = [
@@ -24,7 +32,6 @@ export class MyButton extends LitElement {
     ].join(' ');
 
     return html`
-      <link rel="stylesheet" href="/dist/index.css" />
       <button class="${classes}">
         <slot></slot>
       </button>
