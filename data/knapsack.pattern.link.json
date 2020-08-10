@@ -1,0 +1,135 @@
+{
+  "id": "link",
+  "title": "Link",
+  "description": "",
+  "statuses": {
+    "web-components": "needs-dev",
+    "twig": "needs-dev",
+    "react": "ready",
+    "design": "ready"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/components/link/link.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {},
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": ["text", "url"],
+          "properties": {
+            "active": { "title": "Active?", "type": "boolean" },
+            "text": {
+              "type": "string",
+              "title": "Text",
+              "description": "Display text for the link.",
+              "default": "Link"
+            },
+            "url": {
+              "type": "string",
+              "title": "URL",
+              "default": "https://www.google.com/"
+            },
+            "newTab": { "title": "Open in a New Tab", "type": "boolean" }
+          }
+        }
+      },
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Home Link",
+          "type": "data",
+          "data": {
+            "props": {
+              "text": "Home",
+              "url": "/api/v1/render?patternId=page-flow-example&templateId=react&assetSetId=&dataId=6da64aec42086f3f43df8fc21edcbed0&isInIframe=false&wrapHtml=true",
+              "active": false
+            },
+            "slots": {}
+          }
+        },
+        "ENti8sGYH": {
+          "id": "ENti8sGYH",
+          "title": "Home Link – Active",
+          "type": "data",
+          "data": {
+            "props": {
+              "text": "Home",
+              "url": "/api/v1/render?patternId=page-flow-example&templateId=react&assetSetId=&dataId=6da64aec42086f3f43df8fc21edcbed0&isInIframe=false&wrapHtml=true",
+              "active": true
+            },
+            "slots": {}
+          }
+        },
+        "4cbh-mF1P": {
+          "id": "4cbh-mF1P",
+          "title": "Pricing Link",
+          "type": "data",
+          "data": {
+            "props": {
+              "text": "Pricing",
+              "url": "/api/v1/render?patternId=page-flow-example&templateId=react&assetSetId=&dataId=df4602e5d011382209076ae47ff12b37&isInIframe=false&wrapHtml=true",
+              "active": false
+            },
+            "slots": {}
+          }
+        },
+        "MqCORSIZU": {
+          "id": "MqCORSIZU",
+          "title": "Pricing Link – Active",
+          "type": "data",
+          "data": {
+            "props": {
+              "text": "Pricing",
+              "url": "/api/v1/render?patternId=page-flow-example&templateId=react&assetSetId=&dataId=df4602e5d011382209076ae47ff12b37&isInIframe=false&wrapHtml=true",
+              "active": true
+            },
+            "slots": {}
+          }
+        },
+        "WjfbMyyoO": {
+          "id": "WjfbMyyoO",
+          "title": "Contact Link",
+          "type": "data",
+          "data": {
+            "props": {
+              "text": "Contact",
+              "url": "/api/v1/render?patternId=page-flow-example&templateId=react&assetSetId=&dataId=62395570b1ae8e820f53acb2b18bbcea&isInIframe=false&wrapHtml=true",
+              "active": false
+            },
+            "slots": {}
+          }
+        },
+        "hjZstra64": {
+          "id": "hjZstra64",
+          "title": "Contact Link – Active",
+          "type": "data",
+          "data": {
+            "props": {
+              "text": "Contact",
+              "url": "/api/v1/render?patternId=page-flow-example&templateId=react&assetSetId=&dataId=62395570b1ae8e820f53acb2b18bbcea&isInIframe=false&wrapHtml=true",
+              "active": true
+            },
+            "slots": {}
+          }
+        }
+      },
+      "demos": [
+        "main",
+        "ENti8sGYH",
+        "4cbh-mF1P",
+        "MqCORSIZU",
+        "WjfbMyyoO",
+        "hjZstra64"
+      ],
+      "slices": []
+    }
+  ],
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": []
+}

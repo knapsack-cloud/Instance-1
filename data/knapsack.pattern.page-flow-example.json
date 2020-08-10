@@ -1,0 +1,189 @@
+{
+  "id": "page-flow-example",
+  "title": "Page Flow Example",
+  "description": "Prototyping concept built to accept Figma frame embeds next to coded components.",
+  "statuses": {
+    "react": "ready",
+    "web-components": "needs-dev",
+    "twig": "needs-dev",
+    "design": "ready"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/prototyping/page-flow-example/page-flow-example.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "header": { "title": "header", "allowedPatternIds": ["header"] },
+          "content": { "title": "content" },
+          "footer": { "title": "footer", "allowedPatternIds": ["footer"] }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "figmaFrameURL": {
+              "type": "string",
+              "title": "Figma Frame URL",
+              "description": "You can get the URL by right-clicking on a frame and under \"copy/paste\", select \"Copy Link\"."
+            },
+            "figmaFrameHeight": {
+              "type": "number",
+              "description": "Provide the height of the actual Figma frame.",
+              "title": "Figma Frame Height"
+            },
+            "figmaFrameWidth": { "type": "number" },
+            "minWidth": { "type": "string", "title": "Minimum Page Width" }
+          }
+        }
+      },
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Home",
+          "type": "data",
+          "data": {
+            "props": {
+              "minWidth": 860,
+              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
+              "figmaFrameURL": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A148",
+              "figmaFrameHeight": 600,
+              "figmaFrameWidth": 1440
+            },
+            "slots": {
+              "header": [
+                {
+                  "patternId": "header",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ],
+              "footer": [
+                {
+                  "patternId": "footer",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ],
+              "content": [
+                {
+                  "patternId": "card",
+                  "templateId": "react",
+                  "demoId": "primary"
+                },
+                {
+                  "patternId": "card",
+                  "templateId": "react",
+                  "demoId": "primary"
+                },
+                {
+                  "patternId": "card",
+                  "templateId": "react",
+                  "demoId": "primary"
+                }
+              ]
+            }
+          }
+        },
+        "K7cQ7I1ou": {
+          "id": "K7cQ7I1ou",
+          "title": "Pricing",
+          "type": "data",
+          "data": {
+            "props": {
+              "minWidth": 860,
+              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
+              "figmaFrameURL": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A264",
+              "figmaFrameHeight": 300,
+              "figmaFrameWidth": 1440
+            },
+            "slots": {
+              "header": [
+                {
+                  "patternId": "header",
+                  "templateId": "react",
+                  "demoId": "vtYNvalKD"
+                }
+              ],
+              "footer": [
+                {
+                  "patternId": "footer",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ],
+              "content": [
+                {
+                  "patternId": "card",
+                  "templateId": "react",
+                  "demoId": "primary"
+                },
+                {
+                  "patternId": "card",
+                  "templateId": "react",
+                  "demoId": "primary"
+                },
+                {
+                  "patternId": "card",
+                  "templateId": "react",
+                  "demoId": "primary"
+                }
+              ]
+            }
+          }
+        },
+        "vf7utqft4": {
+          "id": "vf7utqft4",
+          "title": "Contact",
+          "type": "data",
+          "data": {
+            "props": {
+              "minWidth": 860,
+              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
+              "figmaFrameURL": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A267",
+              "figmaFrameHeight": 784,
+              "figmaFrameWidth": 1440
+            },
+            "slots": {
+              "header": [
+                {
+                  "patternId": "header",
+                  "templateId": "react",
+                  "demoId": "DcT5XVjkv"
+                }
+              ],
+              "footer": [
+                {
+                  "patternId": "footer",
+                  "templateId": "react",
+                  "demoId": "main"
+                }
+              ],
+              "content": []
+            }
+          }
+        }
+      },
+      "demos": ["main", "K7cQ7I1ou", "vf7utqft4"],
+      "slices": [
+        {
+          "id": "mrsPfcoVl",
+          "blockId": "figma-slice",
+          "data": {
+            "url": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A148",
+            "height": "480",
+            "clickToInteract": false
+          }
+        }
+      ]
+    }
+  ],
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": [],
+  "demoSize": "portrait"
+}

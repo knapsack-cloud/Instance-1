@@ -33,6 +33,24 @@
       "parentId": "components-asdf"
     },
     {
+      "id": "footer",
+      "name": "Footer",
+      "path": "/pattern/footer",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "header",
+      "name": "Header",
+      "path": "/pattern/header",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "link",
+      "name": "Link",
+      "path": "/pattern/link",
+      "parentId": "components-asdf"
+    },
+    {
       "id": "design-tokens",
       "name": "Design Tokens",
       "path": "",
@@ -55,6 +73,18 @@
       "name": "Spacing",
       "path": "/pages/spacing",
       "parentId": "design-tokens"
+    },
+    {
+      "id": "prototyping",
+      "name": "Prototyping",
+      "path": "",
+      "parentId": "root"
+    },
+    {
+      "id": "page-flow-example",
+      "name": "Page Flow Example",
+      "path": "/pattern/page-flow-example",
+      "parentId": "prototyping"
     }
   ]
 }

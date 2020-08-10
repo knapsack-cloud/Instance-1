@@ -1,0 +1,33 @@
+{
+  "id": "footer",
+  "title": "Footer",
+  "description": "",
+  "statuses": {
+    "design": "ready",
+    "react": "ready",
+    "web-components": "needs-dev",
+    "twig": "needs-dev"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/components/footer/footer.tsx",
+      "templateLanguageId": "react",
+      "spec": {},
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Main",
+          "type": "data",
+          "data": { "props": {}, "slots": {} }
+        }
+      },
+      "demos": ["main"],
+      "slices": []
+    }
+  ],
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": []
+}

@@ -1,0 +1,120 @@
+{
+  "id": "header",
+  "title": "Header",
+  "description": "",
+  "statuses": {
+    "react": "ready",
+    "web-components": "needs-dev",
+    "twig": "needs-dev",
+    "design": "ready"
+  },
+  "templates": [
+    {
+      "id": "react",
+      "title": "react",
+      "path": "../src/components/header/header.tsx",
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "children": { "title": "Links", "allowedPatternIds": ["link"] }
+        },
+        "props": {
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "description": "",
+          "type": "object",
+          "required": [],
+          "properties": {}
+        }
+      },
+      "assetSetIds": [],
+      "demosById": {
+        "main": {
+          "id": "main",
+          "title": "Nav – Home Active",
+          "type": "data",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "ENti8sGYH"
+                },
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "4cbh-mF1P"
+                },
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "WjfbMyyoO"
+                }
+              ]
+            }
+          }
+        },
+        "vtYNvalKD": {
+          "id": "vtYNvalKD",
+          "title": "Nav – Pricing Active",
+          "type": "data",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "main"
+                },
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "MqCORSIZU"
+                },
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "WjfbMyyoO"
+                }
+              ]
+            }
+          }
+        },
+        "DcT5XVjkv": {
+          "id": "DcT5XVjkv",
+          "title": "Nav – Contact Active",
+          "type": "data",
+          "data": {
+            "props": {},
+            "slots": {
+              "children": [
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "main"
+                },
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "4cbh-mF1P"
+                },
+                {
+                  "patternId": "link",
+                  "templateId": "react",
+                  "demoId": "hjZstra64"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "demos": ["main", "vtYNvalKD", "DcT5XVjkv"],
+      "slices": []
+    }
+  ],
+  "tabs": [{ "type": "template", "id": "react" }],
+  "subPages": [],
+  "demoSize": "portrait"
+}
