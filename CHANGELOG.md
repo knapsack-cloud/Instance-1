@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.6.0...v1.7.0) (2020-08-10)
+
+
+### Features
+
+* add figma included prototype components ([b31df53](https://github.com/knapsack-cloud/Instance-1/commit/b31df5340f636876b4fb53f85b2dede0bd650b34))
+
 # [1.6.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.5.0...v1.6.0) (2020-08-07)
 
 
