@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.7.0...v1.8.0) (2020-08-10)
+
+
+### Features
+
+* make figma slot responsive, update colors ([e0011db](https://github.com/knapsack-cloud/Instance-1/commit/e0011db493a2220ed94c9dded2d8c7f6e9b30c9f))
+
 # [1.7.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.6.0...v1.7.0) (2020-08-10)
 
 
