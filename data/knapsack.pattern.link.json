@@ -1,7 +1,7 @@
 {
   "id": "link",
   "title": "Link",
-  "description": "",
+  "description": "Interactive links to other pages, with optional active state.",
   "statuses": {
     "web-components": "needs-dev",
     "twig": "needs-dev",
@@ -130,6 +130,33 @@
       "slices": []
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": []
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "QYST-n8rz",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## About this pattern.\n\nBasic link with text and a URL, optionally open in a new tab and an active state for when used in navigation.\n\nYou'll notice this is being used in tandem with the header pattern. The URL setting for each is targeting isolated view of each example generated in the Page Flow Example, which allows them to be linked together forming a clickable prototype."
+          }
+        },
+        {
+          "id": "UfXkbUeje",
+          "blockId": "pattern-variations",
+          "data": {
+            "templateId": "react",
+            "patternId": "link",
+            "demoId": "main",
+            "variationId": "active"
+          }
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "header",
   "title": "Header",
-  "description": "",
+  "description": "General header with a flexible navigation list.",
   "statuses": {
     "react": "ready",
     "web-components": "needs-dev",
@@ -114,7 +114,35 @@
       "slices": []
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": [],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "QdB1kWv7X",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## About this pattern.\n\nThis pattern uses a single slot for passing in one or many links.\n\n### If running locally.\nIf you go to the React tab and expand the “Manage Internals” panel, you’ll see there’s a slot for “Children” (since this is a react pattern). If you expand the Children slot to display it’s configuration, you’ll see it has been locked down to only allow Link patterns to be passed in. This only locks it down in the Schema Form, not in production code of course, but defining Props and Slots via the UI (rather than “inferring the spec” from the template file) provides some nice extra features like this.\n"
+          }
+        },
+        {
+          "id": "driCT77oq",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "landscape",
+            "showSchemaForm": false,
+            "patternId": "header",
+            "demoId": "main"
+          }
+        }
+      ]
+    }
+  ],
   "demoSize": "portrait"
 }

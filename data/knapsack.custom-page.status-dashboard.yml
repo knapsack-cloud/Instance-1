@@ -4,6 +4,4 @@ slices:
   - id: AfFgN5yVn
     blockId: pattern-status-table-block
     sliceWidth: l
-description: >-
-  Track the status and maturity of the available UI Components and full page
-  examples.
+description: Manage and track the status and maturity of your patterns.

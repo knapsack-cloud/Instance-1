@@ -21,15 +21,9 @@
       "parentId": "root"
     },
     {
-      "id": "/pattern/button",
-      "name": "Button",
-      "path": "/pattern/button",
-      "parentId": "components-asdf"
-    },
-    {
-      "id": "/pattern/card",
-      "name": "Card",
-      "path": "/pattern/card/",
+      "id": "header",
+      "name": "Header",
+      "path": "/pattern/header",
       "parentId": "components-asdf"
     },
     {
@@ -39,15 +33,21 @@
       "parentId": "components-asdf"
     },
     {
-      "id": "header",
-      "name": "Header",
-      "path": "/pattern/header",
-      "parentId": "components-asdf"
-    },
-    {
       "id": "link",
       "name": "Link",
       "path": "/pattern/link",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "/pattern/button",
+      "name": "Button",
+      "path": "/pattern/button",
+      "parentId": "components-asdf"
+    },
+    {
+      "id": "/pattern/card",
+      "name": "Card",
+      "path": "/pattern/card/",
       "parentId": "components-asdf"
     },
     {

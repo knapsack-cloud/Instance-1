@@ -9,18 +9,20 @@ slices:
 
 
         Have a look around this example Knapsack instance. It comes with a
-        couple basic components and some design tokens.
+        couple basic components, design tokens and a multi-page prototype
+        concept.
 
 
         ### Things To Do
 
 
-        If you login, you can experiment with editing content and embedding
-        resources via content blocks.
+        If you login, you can experiment with editing content, creating pattern
+        examples and embedding resources via content blocks.
 
 
         Try editing design tokens in the `./src/design-tokens` folder, or
-        otherwise experiment with styling the components, or adding your own.
+        experiment with modifying or styling the components in the
+        `src/components` folder.
 
 
         The components available out of the box are:

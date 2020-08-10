@@ -173,14 +173,45 @@
         }
       },
       "demos": ["main", "K7cQ7I1ou", "vf7utqft4"],
+      "slices": []
+    }
+  ],
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
       "slices": [
         {
-          "id": "czRWRJnst",
+          "id": "ZDBFxoeWx",
           "blockId": "markdown-slice",
-          "data": { "md": "## Figma Resources" }
+          "data": {
+            "md": "## About this pattern.\n\nThis pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
+          }
         },
         {
-          "id": "_UQO5wF04",
+          "id": "9n7kxMhu5",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "landscape",
+            "showSchemaForm": false,
+            "patternId": "page-flow-example",
+            "demoId": "main"
+          }
+        },
+        {
+          "id": "EIzUwlNA4",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "### Figma Designs\n\nFeel free to duplicate this Figma project and make them your own! You'll just need to update the frame links in each pattern example."
+          }
+        },
+        {
+          "id": "My7HyEX-W",
           "blockId": "figma-slice",
           "data": {
             "url": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=0%3A1",
@@ -191,7 +222,5 @@
       ]
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": [],
   "demoSize": "portrait"
 }

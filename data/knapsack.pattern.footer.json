@@ -1,7 +1,7 @@
 {
   "id": "footer",
   "title": "Footer",
-  "description": "",
+  "description": "General footer with copyright.",
   "statuses": {
     "design": "ready",
     "react": "ready",
@@ -28,6 +28,34 @@
       "slices": []
     }
   ],
-  "tabs": [{ "type": "template", "id": "react" }],
-  "subPages": []
+  "tabs": [
+    { "type": "subPage", "id": "Overview" },
+    { "type": "template", "id": "react" }
+  ],
+  "subPages": [
+    {
+      "title": "Overview",
+      "id": "Overview",
+      "slices": [
+        {
+          "id": "Sr31wZlvl",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "## About this pattern.\n\nThis is about as simple as a pattern can get. No props, no slots, just markup."
+          }
+        },
+        {
+          "id": "Y1vGqQieI",
+          "blockId": "pattern-template-slice",
+          "data": {
+            "templateId": "react",
+            "demoSize": "landscape",
+            "showSchemaForm": false,
+            "patternId": "footer",
+            "demoId": "main"
+          }
+        }
+      ]
+    }
+  ]
 }
