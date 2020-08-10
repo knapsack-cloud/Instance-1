@@ -3,7 +3,7 @@
   "title": "Button",
   "description": "An interactive element that transforms some property on a page, or otherwise submits a form.",
   "statuses": {
-    "design": "needs-design",
+    "design": "ready",
     "react": "ready",
     "web-components": "ready",
     "twig": "ready"

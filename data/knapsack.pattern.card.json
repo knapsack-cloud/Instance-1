@@ -198,7 +198,7 @@
     "react": "ready",
     "twig": "ready",
     "web-components": "ready",
-    "design": "needs-design",
+    "design": "ready",
     "vue": "needs-updated"
   }
 }

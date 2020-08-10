@@ -14,13 +14,12 @@ const PageFlowExample: React.FC<PageFlowExampleProps> = ({
   <div className="ex-page-flow-example" style={{minWidth: `${minWidth}px` || 0}}>
     {header && header}
     <div className="ex-page-flow-example__body">
-      {figmaFrameURL && (
+      {figmaFrameURL && figmaFrameWidth && figmaFrameHeight && (
         <FigmaSlotEmbed
           frameURL={figmaFrameURL}
           frameHeight={figmaFrameHeight}
           frameWidth={figmaFrameWidth}
         />
-        // IF NO HEIGHT – SHOW MESSAGE
       )}
       {content && (
         <div className="ex-page-flow-example__content">{content}</div>

@@ -33,22 +33,64 @@ const FigmaSlotEmbed: React.FC<Props> = ({
   frameHeight,
   frameWidth,
 }: Props) => {
-  const wrapperRef = useRef();
-  const landscapeDimentions = frameWidth > frameHeight;
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const landscapeDimensions = frameWidth > frameHeight;
+
+  const getPortraitDimensions = () => {
+    const currentWrapper = wrapperRef.current;
+
+    if (currentWrapper) {
+      return `${currentWrapper.clientWidth / (frameWidth / frameHeight)}px`;
+    }
+
+    return null;
+  };
+
   const [iframeHeight, setIframeHeight] = useState(
-    landscapeDimentions
+    landscapeDimensions
       ? `${frameHeight / frameWidth * 100}%`
       : null
   );
 
+  // If !landscapeDimensions, need the wrapper to render before iframe
+  // so we have the width. This checks it on first run.
   useEffect(() => {
-    const currentWrapper = wrapperRef.current;
-
-    if (!landscapeDimentions && !iframeHeight && currentWrapper) {
-      const wrapperWidth = currentWrapper.clientWidth;
-      setIframeHeight(`${wrapperWidth / (frameWidth / frameHeight)}px`);
+    if (!landscapeDimensions) {
+      setIframeHeight(getPortraitDimensions());
     }
   }, []);
+
+  // Update on resize
+  // https://dev.to/vitaliemaldur/resize-event-listener-using-react-hooks-1k0c
+  const refreshIframe = () => {
+    const currentWrapper = wrapperRef.current;
+    const iframeNode = currentWrapper.children?.[0];
+
+    if (!landscapeDimensions) {
+      setIframeHeight(getPortraitDimensions());
+    }
+
+    if (iframeNode) {
+      // force the iframe to reload so we get the updated Figma dimensions.
+      currentWrapper.replaceChild(iframeNode.cloneNode(), iframeNode);
+    }
+  }
+
+  useEffect(() => {
+    let timeoutId = null;
+
+    const resizeListener = () => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        refreshIframe();
+      }, 100);
+    };
+
+    window.addEventListener('resize', resizeListener);
+    return () => {
+      window.removeEventListener('resize', resizeListener);
+    }
+  }, [])
 
   return (
     <div
