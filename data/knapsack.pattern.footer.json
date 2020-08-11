@@ -41,7 +41,7 @@
           "id": "Sr31wZlvl",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## About this pattern.\n\nThis is about as simple as a pattern can get. No props, no slots, just markup."
+            "md": "This is about as simple as a pattern can get. No props, no slots, just markup."
           }
         },
         {

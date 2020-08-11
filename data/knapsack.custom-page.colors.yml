@@ -11,25 +11,20 @@ slices:
       tokens:
         tags: []
         category: color
-        name: ''
+        name: layout
       demo:
         id: color-swatch
   - id: oVnVGxuy8
     blockId: markdown-slice
     data:
       md: '## Text'
-  - id: mk_pmK7Z
+  - id: Oqh3gJkcI
     blockId: design-token-slice
     data:
       tokens:
-        tags:
-          - primitives
-          - text
+        tags: []
         category: color
         name: text
       demo:
         id: text-color
-      md: |
-        Test
-    sliceWidth: l
 description: Color tokens. Find and modify them in ./src/design-tokens/color.js

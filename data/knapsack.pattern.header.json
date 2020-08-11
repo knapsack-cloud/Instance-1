@@ -127,7 +127,7 @@
           "id": "QdB1kWv7X",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## About this pattern.\n\nThis pattern uses a single slot for passing in one or many links.\n\n### If running locally.\nIf you go to the React tab and expand the “Manage Internals” panel, you’ll see there’s a slot for “Children” (since this is a react pattern). If you expand the Children slot to display it’s configuration, you’ll see it has been locked down to only allow Link patterns to be passed in. This only locks it down in the Schema Form, not in production code of course, but defining Props and Slots via the UI (rather than “inferring the spec” from the template file) provides some nice extra features like this.\n"
+            "md": "This pattern uses a single slot for passing in one or many links.\n\n### If running locally.\nIf you go to the React tab and expand the “Manage Internals” panel, you’ll see there’s a slot for “Children” (since this is a react pattern). If you expand the Children slot to display it’s configuration, you’ll see it has been locked down to only allow Link patterns to be passed in. This only locks it down in the Schema Form, not in production code of course, but defining Props and Slots via the UI (rather than “inferring the spec” from the template file) provides some nice extra features like this.\n"
           }
         },
         {

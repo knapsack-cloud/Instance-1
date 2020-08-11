@@ -143,7 +143,7 @@
           "id": "QYST-n8rz",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## About this pattern.\n\nBasic link with text and a URL, optionally open in a new tab and an active state for when used in navigation.\n\nYou'll notice this is being used in tandem with the header pattern. The URL setting for each is targeting isolated view of each example generated in the Page Flow Example, which allows them to be linked together forming a clickable prototype."
+            "md": "Basic link with text and a URL, optionally open in a new tab and an active state for when used in navigation.\n\nYou'll notice this is being used in tandem with the header pattern. The URL setting for each is targeting isolated view of each example generated in the Page Flow Example, which allows them to be linked together forming a clickable prototype."
           }
         },
         {

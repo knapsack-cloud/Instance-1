@@ -198,7 +198,7 @@
           "id": "5WAYgTCd7",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## About this pattern.\n\nThis flexible pattern comes with some properties for typical content like a title or image source. You’ll see a [placemg.com](http://placeimg.com/) image source being passed in, which generates a random image.\n\nThe Slots portion of the Schema Editor has a button example passed in. If you modify the example on the button pattern, it’ll be updated here."
+            "md": "This flexible pattern comes with some properties for typical content like a title or image source. You’ll see a [placemg.com](http://placeimg.com/) image source being passed in, which generates a random image.\n\nThe Slots portion of the Schema Editor has a button example passed in. If you modify the example on the button pattern, it’ll be updated here."
           }
         },
         {

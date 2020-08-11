@@ -189,7 +189,7 @@
           "id": "ZDBFxoeWx",
           "blockId": "markdown-slice",
           "data": {
-            "md": "## About this pattern.\n\nThis pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
+            "md": "This pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
           }
         },
         {
