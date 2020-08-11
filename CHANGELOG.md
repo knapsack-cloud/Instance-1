@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/knapsack-cloud/Instance-1/compare/v1.9.0...v1.9.1) (2020-08-11)
+
+
+### Bug Fixes
+
+* overview text ([492e8c9](https://github.com/knapsack-cloud/Instance-1/commit/492e8c9cc09c3692fcf1b994e7ee26efb599dd6e))
+
 # [1.9.0](https://github.com/knapsack-cloud/Instance-1/compare/v1.8.0...v1.9.0) (2020-08-10)
 
 
