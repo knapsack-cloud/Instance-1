@@ -54,7 +54,7 @@
             "props": {
               "minWidth": 860,
               "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
-              "figmaFrameURL": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A148",
+              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Untitled?node-id=1%3A2",
               "figmaFrameHeight": 600,
               "figmaFrameWidth": 1440
             },
@@ -101,7 +101,7 @@
             "props": {
               "minWidth": 860,
               "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
-              "figmaFrameURL": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A264",
+              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Untitled?node-id=2%3A6",
               "figmaFrameHeight": 300,
               "figmaFrameWidth": 1440
             },
@@ -148,7 +148,7 @@
             "props": {
               "minWidth": 860,
               "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
-              "figmaFrameURL": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=1%3A267",
+              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Sandbox?node-id=2%3A11",
               "figmaFrameHeight": 784,
               "figmaFrameWidth": 1440
             },
@@ -189,7 +189,7 @@
           "id": "ZDBFxoeWx",
           "blockId": "markdown-slice",
           "data": {
-            "md": "This pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
+            "md": "This pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nFundamentally, this pattern is configured to allow you to pass in additional patterns (header, footer, cards) in slots, while also being set up specifically to display a figma file / artboard within the defined body area of the template.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
           }
         },
         {
