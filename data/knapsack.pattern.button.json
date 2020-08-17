@@ -308,7 +308,7 @@
           "id": "kJJeYn-tk",
           "blockId": "markdown-slice",
           "data": {
-            "md": "Simple button pattern with a few options. One cool property that you can manipulate is `HandleClick`, where you can actually pass in a function from the schema form."
+            "md": "Simple button pattern with a few options. Try manipulating the `HandleClick` property on one of the pattern template tabs (React, Web Comopnent, or Twig), where you can actually pass in a function from the schema form."
           }
         },
         {
