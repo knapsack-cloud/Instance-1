@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-### Run locally
+### To Run locally
 
 ```bash
 yarn
