@@ -1523,15 +1523,15 @@
     "@babel/runtime" "^7.7.2"
     core-js "^3.4.1"
 
-"@knapsack/app@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-2.0.2-canary-bc0c7083.0.tgz#e6bb42a1ee29d14f74cb5cec1bc683e120902513"
-  integrity sha512-nPcp1/LqX/ZYe58bDDkZ2QtbJ2bhcKgvBh2lz0TZT/6xtNI4E3LmobWogHzMO5BO16d6FNmoDYY5e1ikOaQg/g==
+"@knapsack/app@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-3.1.0.tgz#2634993fdac231467de370cf1f21e1a3d22e5fda"
+  integrity sha512-HC7EVeIlitLwVyRaUMuypq2vRiKW8np17q4A99Aho+LgdQmORU2wIdwDE9U9y+Om0BQ2Uck2UnlLYUrwX5M+QA==
   dependencies:
-    "@knapsack/babel-config" "2.0.2-canary-bc0c7083.0"
-    "@knapsack/core" "2.0.2-canary-bc0c7083.0"
-    "@knapsack/schema-utils" "2.0.2-canary-bc0c7083.0"
-    "@knapsack/utils" "2.0.2-canary-bc0c7083.0"
+    "@knapsack/babel-config" "3.1.0"
+    "@knapsack/core" "3.1.0"
+    "@knapsack/schema-utils" "3.1.0"
+    "@knapsack/utils" "3.1.0"
     apollo-boost "^0.4.4"
     apollo-server-express "^2.9.7"
     body-parser "1.18.3"
@@ -1553,7 +1553,6 @@
     graphql-type-json "^0.2.1"
     gray-matter "^4.0.1"
     highlight.js "^9.12.0"
-    http-proxy-middleware "^1.0.4"
     iframe-resizer "^4.2.9"
     immer "^5.0.0"
     isomorphic-fetch "^2.2.1"
@@ -1577,10 +1576,10 @@
     webpack-virtual-modules "^0.2.1"
     ws "^6.1.2"
 
-"@knapsack/babel-config@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-2.0.2-canary-bc0c7083.0.tgz#9b5737def51a22610852c8c1ed00947e28198d1e"
-  integrity sha512-IusHzf69uyEih0nH8PtmWyn396rmnPuLlF9kSEeRhX9d0ZhLDY4j7qvVsHooizr6Bkxm2wY9wrup+ATNJdsEmA==
+"@knapsack/babel-config@3.1.0", "@knapsack/babel-config@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-3.1.0.tgz#5e5729c029fa2a87c45dfc5193a17b1e50831350"
+  integrity sha512-WaPMXgXXr7q4Cy53+1TRFArKOLoJ3UoDzqkJ8Hv5uLqTvablAoicWoDok0eNxRXMUuMMLkNEbkK7q1cB9pM8AQ==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.0"
@@ -1601,35 +1600,12 @@
     babel-plugin-transform-async-to-promises "^0.8.15"
     prettier "^2.0.4"
 
-"@knapsack/babel-config@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-2.0.4.tgz#a65355eba0b7d6748a0e3fd9654cee8701349aa7"
-  integrity sha512-AXSmxFOHw+HhnAfLr3vNKzcSlUQQONVcQqm5yQRBgGGAry7/ZZXBEVuCAdkQ2Q6opPQG1dw4d9ccpgDZzedWKQ==
+"@knapsack/build-tools@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/build-tools/-/build-tools-3.1.0.tgz#6529356720384e13184f418ecb9cdfd35353eb54"
+  integrity sha512-QcwQ4VYKsbxBLhMX106TCyh9pOlllDdt1V30CV90jUHDojbmt/B89UWKdNkgwwDSM0yPgHgz0/vORjfDFvY/3g==
   dependencies:
-    "@babel/cli" "^7.8.4"
-    "@babel/core" "^7.9.0"
-    "@babel/node" "^7.8.7"
-    "@babel/plugin-proposal-class-properties" "^7.8.3"
-    "@babel/plugin-proposal-decorators" "^7.8.3"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.8.3"
-    "@babel/plugin-proposal-object-rest-spread" "^7.9.5"
-    "@babel/plugin-proposal-optional-chaining" "^7.9.0"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-transform-runtime" "^7.9.0"
-    "@babel/polyfill" "^7.8.7"
-    "@babel/preset-env" "^7.9.5"
-    "@babel/preset-react" "^7.9.4"
-    "@babel/preset-typescript" "^7.9.0"
-    "@babel/register" "^7.9.0"
-    "@babel/runtime" "^7.9.2"
-    prettier "^2.0.4"
-
-"@knapsack/build-tools@^2.0.2-canary-bc0c7083.0":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@knapsack/build-tools/-/build-tools-2.0.4.tgz#6bb84636131ffb49df587187f2c612323ab132ff"
-  integrity sha512-DhRwbO++ONuhb6gzkL022o/YM2Qf7abfI5rxybmh0f/1qoBEKM7l4lSUyZKBNI9ZrIFoCxq7T83LZh/t4DD1JA==
-  dependencies:
-    "@knapsack/babel-config" "2.0.4"
+    "@knapsack/babel-config" "3.1.0"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.2.0"
     "@rollup/plugin-commonjs" "11.0.2"
     "@rollup/plugin-image" "^2.0.4"
@@ -1672,27 +1648,27 @@
     webpack-manifest-plugin "^2.2.0"
     webpack-stylish "^0.1.8"
 
-"@knapsack/core@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-2.0.2-canary-bc0c7083.0.tgz#ea92c1c92f62a8768af65a392aa743a7bb2305b3"
-  integrity sha512-yegFduZrO7nCFjIvJ9Dt8z7TOILojM9D7tiXuxl5gpx0qCffUkGnIfD9nX91g0+z2ImWyDGoe2hoC5ityA2O4g==
+"@knapsack/core@3.1.0", "@knapsack/core@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-3.1.0.tgz#6cff990e57ee7796e0736eee40a29b13b265c29d"
+  integrity sha512-kMz4QYXYLyEQI2wwJsH6HxaTMmDvLwB02do9yzPRaeU9jLsXS+faN8ySP8f2KoptqGtpXuIEXZOPCfQpA6IR7A==
   dependencies:
     global "^4.3.2"
     graphql-tag "^2.10.1"
     handlebars "^4.7.3"
 
-"@knapsack/plugin-changelog-md@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-2.0.2-canary-bc0c7083.0.tgz#886ad6125f195c01aeb60618e454532575418b91"
-  integrity sha512-2/GVP3xrzxGet1uv8kcAD9YLVkHIxCHqJOS9mey4au115cBjkn0QMXFyH2dPr6l41ADWhv1fKprt++aE+pQbKA==
+"@knapsack/plugin-changelog-md@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-3.1.0.tgz#a5ff92f8f13b5ac4093d401646a76ce1b5be1e61"
+  integrity sha512-gMhsD6NJMduEVvpVXT3/rlxoToQY7MtHJAI/Mg+NYizImY4UIAUW2H1ktsJWyPi8BFLGD/O7f7adHMXgB3ISkA==
 
-"@knapsack/renderer-react@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-2.0.2-canary-bc0c7083.0.tgz#8dfa4d1ab02555536bfe172161d52b43e5d84dc8"
-  integrity sha512-JjPp5uubuUHr6bF+0kr+sMyisJt1Rvqll62qZW7R+ZPYZNNmtGM+TSK8OwNuXJyuzswpj4096W6gWWpqbM5K7w==
+"@knapsack/renderer-react@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-3.1.0.tgz#f26051bcff0a209addc3057ca0e55cdde72aa395"
+  integrity sha512-ImfN8EqAAITHSMu3kpTFz2/tIb4UrBYAzjkK+1+hTzuNgk2oc+sTr47rAgj4BgG0GzCfxZzUygiN1zCMVZ8Btg==
   dependencies:
     "@babel/core" "^7.9.0"
-    "@knapsack/core" "2.0.2-canary-bc0c7083.0"
+    "@knapsack/core" "3.1.0"
     change-case "^4.1.1"
     ejs "^3.0.1"
     react "^16.13.1"
@@ -1705,43 +1681,43 @@
     webpack-manifest-plugin "^2.2.0"
     webpack-virtual-modules "^0.2.1"
 
-"@knapsack/renderer-twig@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-2.0.2-canary-bc0c7083.0.tgz#e2b6edc3f03d1b9cb5ede60ed692bc7573d75581"
-  integrity sha512-uSsHf7uRSeFLY2S6eLIwAWeHvcW0sxzvPGwVf3QTtdrr9l8OZ8v77irteqj4CfVjoZgX/6mWiTBv4ONdzgsE7g==
+"@knapsack/renderer-twig@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-3.1.0.tgz#159aa87b30ac6e9fce7f0ce23af0ac5a46438702"
+  integrity sha512-N3xyFxs51YUIJuqy55bIQOD9FTJRShtCRor+ec3gKm9w7zBIoDn0EH+cL6eEBMIgIabAKIutokdcjei1XPqf4g==
   dependencies:
     "@basalt/twig-renderer" "^0.12.2"
     ejs "^3.0.1"
 
-"@knapsack/renderer-vue@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-2.0.2-canary-bc0c7083.0.tgz#b8c330e274d7a340f3ec4d29c736861617854494"
-  integrity sha512-OYeY/iMLz/iyHKVEpvdLQM4GgIO/EmKOjjyyGoSF/hr6HKszGEpJ7RcavMlbqETs5rPOyLYO7rsfgI3n5FxkVQ==
+"@knapsack/renderer-vue@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-3.1.0.tgz#916e785d6f844e4854e1d73f0fbca00694244f21"
+  integrity sha512-hWZV7ZxvtX0LobLrsaxNUwDpazN5X+UdDY2J/D3g991YibZTrpfilPEKdz7mbkHdKpYU6cBkCg1z0qNzeEgo8g==
   dependencies:
     vue "^2.6.11"
     vue-docgen-api "^4.19.2"
     vue-loader "^15.9.1"
     vue-template-compiler "^2.6.11"
 
-"@knapsack/renderer-web-components@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-2.0.2-canary-bc0c7083.0.tgz#9fe3580912b87e82dbc7dff3f88da429071e411e"
-  integrity sha512-yhuTB2wZkXcsJhs4JumUVs8ohCmzl02X3dfU70RJPCElATdK3POY5DhEKB9CnczP9ct/KsqVu9JfmdDn/xq/zA==
+"@knapsack/renderer-web-components@^3.0.2":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-3.1.0.tgz#0dbb55c630f2b4931fde07c2ec136ec4e1afd149"
+  integrity sha512-s8hdpoMwdoL4Z3EZc0YWZg6FX80+U8RMfQc7mjj0kO0TQCgfYq/C1Vz3sOn9v6bPxH3mig3bp6ekym+Qt7PfNA==
 
-"@knapsack/schema-utils@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/schema-utils/-/schema-utils-2.0.2-canary-bc0c7083.0.tgz#70267a30590e97cdaeb44b7fddaead3ddc9d93e5"
-  integrity sha512-ch9kxWcSnEJcZYTx5aVXHOjVaWqScpM5zu/eodRNg/XMzQVKLkkuqThT7zF/IPcr9mHX9Pe7Er7XVAWF9LaluA==
+"@knapsack/schema-utils@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/schema-utils/-/schema-utils-3.1.0.tgz#e608707cb63ca7d2555fd5579d128e0530a761d8"
+  integrity sha512-BhL//iZvGYrpOxm/A47XtA3r8E6Ef2AwKxEruosW+ECa69hQ+CFLPURy4rj4RZ+euJ1SLB1P6NjEBd0tMEu/iQ==
   dependencies:
     ajv "^6.6.1"
     ajv-keywords "^3.4.1"
 
-"@knapsack/utils@2.0.2-canary-bc0c7083.0":
-  version "2.0.2-canary-bc0c7083.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/utils/-/utils-2.0.2-canary-bc0c7083.0.tgz#d6033ab16363297eaca5bbc737a7abf67edb6e07"
-  integrity sha512-p26vGhf1CXWV7dEbwD1ZM4XvOXNlAyGvqxwbd3cokAsV+IjU5vbQtO9WbkFhR9NmpgbFj64u6JHhwz7+79VorA==
+"@knapsack/utils@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/utils/-/utils-3.1.0.tgz#afe1b5d4ad67fd766d99bb05013f266381e9c1b7"
+  integrity sha512-9lfmonuxT2/Pyyjd6zz0mOm1d07vJRYiIqhqKLq++8JPeD+i5XYQQKBiBFW98OKzvNMjXXGS0Ti/Kwy6sYpLvQ==
   dependencies:
-    "@knapsack/core" "2.0.2-canary-bc0c7083.0"
+    "@knapsack/core" "3.1.0"
     color "3.0.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -7642,17 +7618,6 @@ http-parser-js@>=0.5.1:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.5.2.tgz#da2e31d237b393aae72ace43882dd7e270a8ff77"
   integrity sha512-opCO9ASqg5Wy2FNo7A0sxy71yGbbkJJXLdgMK04Tcypw9jr2MgWbyubb0+WdmDmGnFflO7fRbqbaihh/ENDlRQ==
-
-http-proxy-middleware@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-1.0.4.tgz#425ea177986a0cda34f9c81ec961c719adb6c2a9"
-  integrity sha512-8wiqujNWlsZNbeTSSWMLUl/u70xbJ5VYRwPR8RcAbvsNxzAZbgwLzRvT96btbm3fAitZUmo5i8LY6WKGyHDgvA==
-  dependencies:
-    "@types/http-proxy" "^1.17.4"
-    http-proxy "^1.18.1"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    micromatch "^4.0.2"
 
 http-proxy-middleware@^1.0.5:
   version "1.0.5"
