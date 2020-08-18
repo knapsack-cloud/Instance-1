@@ -1,4 +1,4 @@
-# Knapsack Instance-1
+# Knapsack Sandbox Starter
 
 ## Quick Start
 
