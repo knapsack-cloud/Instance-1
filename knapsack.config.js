@@ -57,7 +57,7 @@ module.exports = configureKnapsack({
     }),
   ],
   cloud: {
-    siteId: 'instance-3',
+    siteId: 'instance-1',
     repoName: 'Instance-1',
     repoOwner: 'knapsack-cloud',
     baseBranch: 'main',
