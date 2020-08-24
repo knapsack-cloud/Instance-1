@@ -1523,15 +1523,15 @@
     "@babel/runtime" "^7.7.2"
     core-js "^3.4.1"
 
-"@knapsack/app@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-3.1.0.tgz#2634993fdac231467de370cf1f21e1a3d22e5fda"
-  integrity sha512-HC7EVeIlitLwVyRaUMuypq2vRiKW8np17q4A99Aho+LgdQmORU2wIdwDE9U9y+Om0BQ2Uck2UnlLYUrwX5M+QA==
+"@knapsack/app@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/app/-/app-3.2.0.tgz#8460dfebdb667ec33b1c1d407e9caa9ed422c706"
+  integrity sha512-XLZmXE1bLWJA6H709Ii8yAwo+PhVdige+bvQSE/LHP/xn6sGh2BntVw3LtbH2eWE97i+ZHroeHE5oO3y1a6+Rw==
   dependencies:
-    "@knapsack/babel-config" "3.1.0"
-    "@knapsack/core" "3.1.0"
-    "@knapsack/schema-utils" "3.1.0"
-    "@knapsack/utils" "3.1.0"
+    "@knapsack/babel-config" "3.2.0"
+    "@knapsack/core" "3.2.0"
+    "@knapsack/schema-utils" "3.2.0"
+    "@knapsack/utils" "3.2.0"
     apollo-boost "^0.4.4"
     apollo-server-express "^2.9.7"
     body-parser "1.18.3"
@@ -1576,10 +1576,10 @@
     webpack-virtual-modules "^0.2.1"
     ws "^6.1.2"
 
-"@knapsack/babel-config@3.1.0", "@knapsack/babel-config@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-3.1.0.tgz#5e5729c029fa2a87c45dfc5193a17b1e50831350"
-  integrity sha512-WaPMXgXXr7q4Cy53+1TRFArKOLoJ3UoDzqkJ8Hv5uLqTvablAoicWoDok0eNxRXMUuMMLkNEbkK7q1cB9pM8AQ==
+"@knapsack/babel-config@3.2.0", "@knapsack/babel-config@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/babel-config/-/babel-config-3.2.0.tgz#a8df1128c01b814bc55581458d3703f5b49982bb"
+  integrity sha512-mfKXtw/FeIA+b827U8iDvg0ByEoV4+rWwlKjW7tJzQCzUV2BWjfzmE8zM6iYOSJK4aO6rJW4KsrLEaB6HFUW5w==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.9.0"
@@ -1600,12 +1600,12 @@
     babel-plugin-transform-async-to-promises "^0.8.15"
     prettier "^2.0.4"
 
-"@knapsack/build-tools@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/build-tools/-/build-tools-3.1.0.tgz#6529356720384e13184f418ecb9cdfd35353eb54"
-  integrity sha512-QcwQ4VYKsbxBLhMX106TCyh9pOlllDdt1V30CV90jUHDojbmt/B89UWKdNkgwwDSM0yPgHgz0/vORjfDFvY/3g==
+"@knapsack/build-tools@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/build-tools/-/build-tools-3.2.0.tgz#fbd33f1d4301cfad7555cfacc38bc1ca7675f1ad"
+  integrity sha512-LZibVTc29NfN+J5ZR0rDDxiLOc3aAu0VpaQpbpfF6ALrCVB//ZaOLXpVo43xL6SQ497AjFb7CTMa3xHvD+0OFQ==
   dependencies:
-    "@knapsack/babel-config" "3.1.0"
+    "@knapsack/babel-config" "3.2.0"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.2.0"
     "@rollup/plugin-commonjs" "11.0.2"
     "@rollup/plugin-image" "^2.0.4"
@@ -1648,27 +1648,27 @@
     webpack-manifest-plugin "^2.2.0"
     webpack-stylish "^0.1.8"
 
-"@knapsack/core@3.1.0", "@knapsack/core@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-3.1.0.tgz#6cff990e57ee7796e0736eee40a29b13b265c29d"
-  integrity sha512-kMz4QYXYLyEQI2wwJsH6HxaTMmDvLwB02do9yzPRaeU9jLsXS+faN8ySP8f2KoptqGtpXuIEXZOPCfQpA6IR7A==
+"@knapsack/core@3.2.0", "@knapsack/core@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/core/-/core-3.2.0.tgz#58ed54f33ad3008ac941efbacd6b39a5f0d32d24"
+  integrity sha512-Lz/Dd8/lrkiypWqM/5TfvVDJlJQ1lMEwtYY3TCQrIAq0fsL4QXpE5KiHTesxTfmG1A3OLExmQshUAwEsmNyUMg==
   dependencies:
     global "^4.3.2"
     graphql-tag "^2.10.1"
     handlebars "^4.7.3"
 
-"@knapsack/plugin-changelog-md@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-3.1.0.tgz#a5ff92f8f13b5ac4093d401646a76ce1b5be1e61"
-  integrity sha512-gMhsD6NJMduEVvpVXT3/rlxoToQY7MtHJAI/Mg+NYizImY4UIAUW2H1ktsJWyPi8BFLGD/O7f7adHMXgB3ISkA==
+"@knapsack/plugin-changelog-md@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/plugin-changelog-md/-/plugin-changelog-md-3.2.0.tgz#748c9c62126f36ca1f1136c2d15b116d56079035"
+  integrity sha512-lxdXi0NfG2y/kJYhQ8spSTe4HMOzwMFWF8stKa6BfdUGWjRcYkbS91wLnjKLUMZdpazKZPH8Mh1sn7s12aSFOg==
 
-"@knapsack/renderer-react@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-3.1.0.tgz#f26051bcff0a209addc3057ca0e55cdde72aa395"
-  integrity sha512-ImfN8EqAAITHSMu3kpTFz2/tIb4UrBYAzjkK+1+hTzuNgk2oc+sTr47rAgj4BgG0GzCfxZzUygiN1zCMVZ8Btg==
+"@knapsack/renderer-react@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-react/-/renderer-react-3.2.0.tgz#5439cde272ef556e2d38754d0eade7474dba4a22"
+  integrity sha512-i16QM+Z7kWCSKLoAD/nEIjiJE4sdxRcKusQIUZ11mjSe+pDLgetx0wWINdNGkDgWjmk3ZwwnIHV/L0WjyxBjTA==
   dependencies:
     "@babel/core" "^7.9.0"
-    "@knapsack/core" "3.1.0"
+    "@knapsack/core" "3.2.0"
     change-case "^4.1.1"
     ejs "^3.0.1"
     react "^16.13.1"
@@ -1681,43 +1681,43 @@
     webpack-manifest-plugin "^2.2.0"
     webpack-virtual-modules "^0.2.1"
 
-"@knapsack/renderer-twig@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-3.1.0.tgz#159aa87b30ac6e9fce7f0ce23af0ac5a46438702"
-  integrity sha512-N3xyFxs51YUIJuqy55bIQOD9FTJRShtCRor+ec3gKm9w7zBIoDn0EH+cL6eEBMIgIabAKIutokdcjei1XPqf4g==
+"@knapsack/renderer-twig@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-twig/-/renderer-twig-3.2.0.tgz#154c71bc1d8ac0121d3eefb4ee0cb10716d0b3a6"
+  integrity sha512-Gldvdwblfs2wCyg3NFSiBQGkTONeoy+QfdAaGOE5ouJ9Y1NqViPoKgvZpT1WaR9xQFIgDz9H/p0e0mXZ3Cx7cA==
   dependencies:
     "@basalt/twig-renderer" "^0.12.2"
     ejs "^3.0.1"
 
-"@knapsack/renderer-vue@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-3.1.0.tgz#916e785d6f844e4854e1d73f0fbca00694244f21"
-  integrity sha512-hWZV7ZxvtX0LobLrsaxNUwDpazN5X+UdDY2J/D3g991YibZTrpfilPEKdz7mbkHdKpYU6cBkCg1z0qNzeEgo8g==
+"@knapsack/renderer-vue@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-vue/-/renderer-vue-3.2.0.tgz#3cb8e8f4a97ecd1b5c55c3ee45a49d67f4c7989b"
+  integrity sha512-qNXqhnyIJZqIsc3aIUr06oJ2gh9UTvQfLgNnbAxgU4nT8mgR01EU5SSrl2H+2OfyQNaQamvfublcRMvfYCAl/A==
   dependencies:
     vue "^2.6.11"
     vue-docgen-api "^4.19.2"
     vue-loader "^15.9.1"
     vue-template-compiler "^2.6.11"
 
-"@knapsack/renderer-web-components@^3.0.2":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-3.1.0.tgz#0dbb55c630f2b4931fde07c2ec136ec4e1afd149"
-  integrity sha512-s8hdpoMwdoL4Z3EZc0YWZg6FX80+U8RMfQc7mjj0kO0TQCgfYq/C1Vz3sOn9v6bPxH3mig3bp6ekym+Qt7PfNA==
+"@knapsack/renderer-web-components@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/renderer-web-components/-/renderer-web-components-3.2.0.tgz#c78fb09dd3f2733d4eae62d706be38b1a7b1822a"
+  integrity sha512-9Kx34290ubU3BTmvBeotaMTGrDfAl1yV4YPj77/Db1AkqTvtDOw6zTxc+QYq/FllOvW8IgwA1NzNw2oxOsTMhg==
 
-"@knapsack/schema-utils@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/schema-utils/-/schema-utils-3.1.0.tgz#e608707cb63ca7d2555fd5579d128e0530a761d8"
-  integrity sha512-BhL//iZvGYrpOxm/A47XtA3r8E6Ef2AwKxEruosW+ECa69hQ+CFLPURy4rj4RZ+euJ1SLB1P6NjEBd0tMEu/iQ==
+"@knapsack/schema-utils@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/schema-utils/-/schema-utils-3.2.0.tgz#77472e41a11865afb2ca2fac7c6e4e58417fde70"
+  integrity sha512-PBeDT4nDM4h8z1q2kJXNVg/1UmBCBFUT4X6t2YH6S8NaiQ32c+r1MHMsNipN8Bz2G/QCzp2lS8xKaTZ1KV3lLw==
   dependencies:
     ajv "^6.6.1"
     ajv-keywords "^3.4.1"
 
-"@knapsack/utils@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@knapsack/utils/-/utils-3.1.0.tgz#afe1b5d4ad67fd766d99bb05013f266381e9c1b7"
-  integrity sha512-9lfmonuxT2/Pyyjd6zz0mOm1d07vJRYiIqhqKLq++8JPeD+i5XYQQKBiBFW98OKzvNMjXXGS0Ti/Kwy6sYpLvQ==
+"@knapsack/utils@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@knapsack/utils/-/utils-3.2.0.tgz#36ed1136a48a37c39f206851537251cbf2372beb"
+  integrity sha512-QUTaqytG2N/PaEikAnuOou0lQ1tSM4CVG1V9eVkJZpUwdud0V+xOAIpZB0n85O68AvItnZ5umUIoMmkRf8FukQ==
   dependencies:
-    "@knapsack/core" "3.1.0"
+    "@knapsack/core" "3.2.0"
     color "3.0.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
