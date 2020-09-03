@@ -1,0 +1,21 @@
+{
+  "id": "new-card",
+  "title": "New Card",
+  "description": "",
+  "statuses": { "design": "ready" },
+  "templates": [],
+  "tabs": [{ "type": "subPage", "id": "overview" }],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "bu-Wg0PLK",
+          "blockId": "markdown-slice",
+          "data": { "md": "### HEADER\n\nadfadfd" }
+        }
+      ]
+    }
+  ]
+}

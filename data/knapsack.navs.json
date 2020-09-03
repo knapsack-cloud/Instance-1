@@ -27,6 +27,12 @@
       "parentId": "components-asdf"
     },
     {
+      "id": "new-card",
+      "name": "New Card",
+      "path": "/pattern/new-card",
+      "parentId": "components-asdf"
+    },
+    {
       "id": "footer",
       "name": "Footer",
       "path": "/pattern/footer",
