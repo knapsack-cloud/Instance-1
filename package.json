@@ -12,7 +12,7 @@
     "ks:build": "NODE_ENV=production knapsack build",
     "ks:serve": "NODE_ENV=production KNAPSACK_PORT=${PORT} knapsack serve",
     "ks:test": "knapsack test",
-    "ks:start": "KS_APP_URL=https://app.knapsack.cloud knapsack start",
+    "ks:start": "knapsack start",
     "prep": "[ -f ./ks-public/dist/index.css ] || yarn ui:build",
     "start": "yarn prep && run-p *:watch ks:start",
     "watch": "run-p ui:watch",
@@ -26,15 +26,15 @@
     "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@babel/plugin-proposal-decorators": "^7.10.1",
     "@babel/plugin-proposal-optional-chaining": "^7.10.1",
-    "@knapsack/app": "^3.2.0",
-    "@knapsack/babel-config": "^3.2.0",
-    "@knapsack/build-tools": "^3.2.0",
-    "@knapsack/core": "^3.2.0",
-    "@knapsack/plugin-changelog-md": "^3.2.0",
-    "@knapsack/renderer-react": "^3.2.0",
-    "@knapsack/renderer-twig": "^3.2.0",
-    "@knapsack/renderer-vue": "^3.2.0",
-    "@knapsack/renderer-web-components": "^3.2.0",
+    "@knapsack/app": "^3.4.1",
+    "@knapsack/babel-config": "^3.4.1",
+    "@knapsack/build-tools": "^3.4.1",
+    "@knapsack/core": "^3.4.1",
+    "@knapsack/plugin-changelog-md": "^3.4.1",
+    "@knapsack/renderer-react": "^3.4.1",
+    "@knapsack/renderer-twig": "^3.4.1",
+    "@knapsack/renderer-vue": "^3.4.1",
+    "@knapsack/renderer-web-components": "^3.4.1",
     "@rollup/plugin-babel": "^5.0.3",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-json": "^4.1.0",
@@ -87,5 +87,5 @@
   "engines": {
     "node": ">=10.0.0 || >=12.0.0"
   },
-  "repository": "git://github.com/knapsack-cloud/Instance-1.git"
+  "repository": "git://github.com/knapsack-cloud/sandbox-starter.git"
 }
