@@ -1,0 +1,32 @@
+{
+  "id": "new-card",
+  "title": "New Card",
+  "description": "",
+  "statuses": { "design": "ready", "react": "needs-dev" },
+  "templates": [],
+  "tabs": [{ "type": "subPage", "id": "overview" }],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-Dx0WbI928",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "# New Card Pattern Being Added\nStart using this February 1\n\ndfdf"
+          }
+        },
+        {
+          "id": "ks-content-block-7OqkM8PLZ",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "900",
+            "url": "https://www.figma.com/file/UyMehVAEtdIFwc6VhK86FN/Knapsack-Demonstration?node-id=0%3A1"
+          }
+        }
+      ]
+    }
+  ]
+}
