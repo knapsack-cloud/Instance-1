@@ -1,10 +1,52 @@
-id: intro
-title: Sample Patterns
 slices:
-  - id: ks-content-block-yVZOLgST=
+  - data:
+      md: >-
+        ## Welcome
+
+
+        This Knapsack sandbox is all yours. Use it to get familiar with the
+        experience of working with Knapsack in your digital production workflow.
+
+
+        This instance is connected to a basic GitHub repo that the Knapsack team
+        set up and have granted you (or your team) access to. It comes with a
+        few basic patterns, some design tokens and a[ page prototype
+        concept](/instance-1/latest/pattern/page-flow-example?subPageId=Overview).
+        Your Engineers can copy the repo down and work with Knapsack locally to
+        explore how it connects to your system code. 
+
+
+        If you become interested in exploring further, get in touch with the
+        Knapsack team and we'll help them hook things up your team's own repo(s)
+        so you can see and work with your own patterns and tokens.
+
+
+        ### Things To Do
+
+
+        Once you login, you can experiment with editing content, creating
+        pattern examples and embedding resources via content blocks. Try adding
+        new pages or patterns, modifying statuses and exploring ways to support
+        or improve your workflows when building with a design system.
+
+
+        As you explore Patterns and Design Tokens pages, you'll see how Knapsack
+        renders your system source code in our documentation and playgrounds.
+        Try editing tokens in the `./src/design-tokens` folder, or experiment
+        with modifying or styling the Patterns in the `src/components` folder to
+        see how changes reflect in Knapsack.
+
+
+        The Patterns available out of the box are presented below.
     blockId: markdown-slice
-    data:
-      md: Click a pattern to see what it can do.
-  - id: ZDKAB4IfW
-    blockId: pattern-list-block
-description: To help you get started
+    id: cyfuu27gD
+    sliceWidth: l
+  - data:
+      md: '## Sample Patterns'
+    blockId: markdown-slice
+    id: DOlHdlP0N3
+  - blockId: pattern-list-block
+    id: ZDKAB4IfW
+id: intro
+title: Introduction
+description: Getting Started with Knapsack

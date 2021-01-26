@@ -1,226 +1,229 @@
 {
-  "id": "page-flow-example",
-  "title": "Page Flow Example",
-  "description": "Prototyping concept built to accept Figma frame embeds next to coded components.",
-  "statuses": {
-    "react": "ready",
-    "web-components": "needs-dev",
-    "twig": "needs-dev",
-    "design": "ready"
-  },
+  "subPages": [
+    {
+      "slices": [
+        {
+          "data": {
+            "md": "This pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nFundamentally, this pattern is configured to allow you to pass in additional patterns (header, footer, cards) in slots, while also being set up specifically to display a figma file / artboard within the defined body area of the template.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
+          },
+          "blockId": "markdown-slice",
+          "id": "ZDBFxoeWx"
+        },
+        {
+          "data": {
+            "templateId": "react",
+            "demoId": "main",
+            "showSchemaForm": false,
+            "patternId": "page-flow-example",
+            "demoSize": "landscape"
+          },
+          "blockId": "pattern-template-slice",
+          "id": "9n7kxMhu5"
+        },
+        {
+          "data": {
+            "md": "### Figma Designs\n\nFeel free to duplicate this Figma project and make them your own! You'll just need to update the frame links in each pattern example."
+          },
+          "blockId": "markdown-slice",
+          "id": "EIzUwlNA4"
+        },
+        {
+          "data": {
+            "height": "480",
+            "url": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=0%3A1",
+            "clickToInteract": false
+          },
+          "blockId": "figma-slice",
+          "id": "My7HyEX-W"
+        }
+      ],
+      "id": "Overview",
+      "title": "Overview"
+    }
+  ],
   "templates": [
     {
-      "id": "react",
-      "title": "react",
       "path": "../src/prototyping/page-flow-example/page-flow-example.tsx",
-      "templateLanguageId": "react",
-      "spec": {
-        "slots": {
-          "header": { "title": "header", "allowedPatternIds": ["header"] },
-          "content": { "title": "content" },
-          "footer": { "title": "footer", "allowedPatternIds": ["footer"] }
+      "demos": ["main", "K7cQ7I1ou", "vf7utqft4"],
+      "slices": [],
+      "demosById": {
+        "K7cQ7I1ou": {
+          "data": {
+            "slots": {
+              "content": [
+                {
+                  "templateId": "react",
+                  "demoId": "primary",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "primary",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "primary",
+                  "patternId": "card"
+                }
+              ],
+              "header": [
+                {
+                  "templateId": "react",
+                  "demoId": "vtYNvalKD",
+                  "patternId": "header"
+                }
+              ],
+              "footer": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "footer"
+                }
+              ]
+            },
+            "props": {
+              "minWidth": 860,
+              "figmaFrameWidth": 1440,
+              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
+              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Untitled?node-id=2%3A6",
+              "figmaFrameHeight": 300
+            }
+          },
+          "id": "K7cQ7I1ou",
+          "title": "Pricing",
+          "type": "data"
         },
-        "props": {
-          "$schema": "http://json-schema.org/draft-07/schema",
-          "description": "",
-          "type": "object",
-          "required": [],
-          "properties": {
-            "figmaFrameURL": {
-              "type": "string",
-              "title": "Figma Frame URL",
-              "description": "You can get the URL by right-clicking on a frame and under \"copy/paste\", select \"Copy Link\"."
+        "main": {
+          "data": {
+            "slots": {
+              "content": [
+                {
+                  "templateId": "react",
+                  "demoId": "primary",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "primary",
+                  "patternId": "card"
+                },
+                {
+                  "templateId": "react",
+                  "demoId": "primary",
+                  "patternId": "card"
+                }
+              ],
+              "header": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "header"
+                }
+              ],
+              "footer": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "footer"
+                }
+              ]
             },
-            "figmaFrameHeight": {
-              "type": "number",
-              "description": "Provide the height of the actual Figma frame.",
-              "title": "Figma Frame Height"
+            "props": {
+              "minWidth": 860,
+              "figmaFrameWidth": 1440,
+              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
+              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Untitled?node-id=1%3A2",
+              "figmaFrameHeight": 600
+            }
+          },
+          "id": "main",
+          "title": "Home",
+          "type": "data"
+        },
+        "vf7utqft4": {
+          "data": {
+            "slots": {
+              "content": [],
+              "header": [
+                {
+                  "templateId": "react",
+                  "demoId": "DcT5XVjkv",
+                  "patternId": "header"
+                }
+              ],
+              "footer": [
+                {
+                  "templateId": "react",
+                  "demoId": "main",
+                  "patternId": "footer"
+                }
+              ]
             },
-            "figmaFrameWidth": {
-              "type": "number",
-              "title": "Figma Frame Width"
-            },
-            "minWidth": { "title": "Minimum Page Width (px)", "type": "number" }
-          }
+            "props": {
+              "minWidth": 860,
+              "figmaFrameWidth": 1440,
+              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
+              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Sandbox?node-id=2%3A11",
+              "figmaFrameHeight": 784
+            }
+          },
+          "id": "vf7utqft4",
+          "title": "Contact",
+          "type": "data"
         }
       },
       "assetSetIds": [],
-      "demosById": {
-        "main": {
-          "id": "main",
-          "title": "Home",
-          "type": "data",
-          "data": {
-            "props": {
-              "minWidth": 860,
-              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
-              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Untitled?node-id=1%3A2",
-              "figmaFrameHeight": 600,
-              "figmaFrameWidth": 1440
-            },
-            "slots": {
-              "header": [
-                {
-                  "patternId": "header",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ],
-              "footer": [
-                {
-                  "patternId": "footer",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ],
-              "content": [
-                {
-                  "patternId": "card",
-                  "templateId": "react",
-                  "demoId": "primary"
-                },
-                {
-                  "patternId": "card",
-                  "templateId": "react",
-                  "demoId": "primary"
-                },
-                {
-                  "patternId": "card",
-                  "templateId": "react",
-                  "demoId": "primary"
-                }
-              ]
-            }
-          }
+      "templateLanguageId": "react",
+      "spec": {
+        "slots": {
+          "content": { "title": "content" },
+          "header": { "title": "header", "allowedPatternIds": ["header"] },
+          "footer": { "title": "footer", "allowedPatternIds": ["footer"] }
         },
-        "K7cQ7I1ou": {
-          "id": "K7cQ7I1ou",
-          "title": "Pricing",
-          "type": "data",
-          "data": {
-            "props": {
-              "minWidth": 860,
-              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
-              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Untitled?node-id=2%3A6",
-              "figmaFrameHeight": 300,
-              "figmaFrameWidth": 1440
+        "props": {
+          "required": [],
+          "$schema": "http://json-schema.org/draft-07/schema",
+          "type": "object",
+          "description": "",
+          "properties": {
+            "minWidth": {
+              "title": "Minimum Page Width (px)",
+              "type": "number"
             },
-            "slots": {
-              "header": [
-                {
-                  "patternId": "header",
-                  "templateId": "react",
-                  "demoId": "vtYNvalKD"
-                }
-              ],
-              "footer": [
-                {
-                  "patternId": "footer",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ],
-              "content": [
-                {
-                  "patternId": "card",
-                  "templateId": "react",
-                  "demoId": "primary"
-                },
-                {
-                  "patternId": "card",
-                  "templateId": "react",
-                  "demoId": "primary"
-                },
-                {
-                  "patternId": "card",
-                  "templateId": "react",
-                  "demoId": "primary"
-                }
-              ]
-            }
-          }
-        },
-        "vf7utqft4": {
-          "id": "vf7utqft4",
-          "title": "Contact",
-          "type": "data",
-          "data": {
-            "props": {
-              "minWidth": 860,
-              "iframeURL": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FxKzZ8peAs1K3pM8nqHubfx%2FInstance-Prototype%3Fnode-id%3D1%253A148",
-              "figmaFrameURL": "https://www.figma.com/file/56RgrthzvSfhGPr7fdu3sj/Sandbox?node-id=2%3A11",
-              "figmaFrameHeight": 784,
-              "figmaFrameWidth": 1440
+            "figmaFrameWidth": {
+              "title": "Figma Frame Width",
+              "type": "number"
             },
-            "slots": {
-              "header": [
-                {
-                  "patternId": "header",
-                  "templateId": "react",
-                  "demoId": "DcT5XVjkv"
-                }
-              ],
-              "footer": [
-                {
-                  "patternId": "footer",
-                  "templateId": "react",
-                  "demoId": "main"
-                }
-              ],
-              "content": []
+            "figmaFrameURL": {
+              "title": "Figma Frame URL",
+              "type": "string",
+              "description": "You can get the URL by right-clicking on a frame and under \"copy/paste\", select \"Copy Link\"."
+            },
+            "figmaFrameHeight": {
+              "title": "Figma Frame Height",
+              "type": "number",
+              "description": "Provide the height of the actual Figma frame."
             }
           }
         }
       },
-      "demos": ["main", "K7cQ7I1ou", "vf7utqft4"],
-      "slices": []
+      "id": "react",
+      "title": "react"
     }
   ],
   "tabs": [
-    { "type": "subPage", "id": "Overview" },
-    { "type": "template", "id": "react" }
+    { "id": "Overview", "type": "subPage" },
+    { "id": "react", "type": "template" }
   ],
-  "subPages": [
-    {
-      "title": "Overview",
-      "id": "Overview",
-      "slices": [
-        {
-          "id": "ZDBFxoeWx",
-          "blockId": "markdown-slice",
-          "data": {
-            "md": "This pattern demonstrates how we can take some of the concepts designed for creating and documenting design system patterns to the next level.\n\nFundamentally, this pattern is configured to allow you to pass in additional patterns (header, footer, cards) in slots, while also being set up specifically to display a figma file / artboard within the defined body area of the template.\n\nIf you view any of the pattern examples in isolation (click the open-in-new-window button from the pattern stage), you can click the navigation elements and view different pages as a clickable prototype. A custom component created specifically for prototyping in this case, is also being used that allows you to pass a Figma frame into the top of the page body via the Schema Form. So the hero banner on the home page is a Figma design comp, while the rest of the content is made from coded pattern examples! So many possibilities."
-          }
-        },
-        {
-          "id": "9n7kxMhu5",
-          "blockId": "pattern-template-slice",
-          "data": {
-            "templateId": "react",
-            "demoSize": "landscape",
-            "showSchemaForm": false,
-            "patternId": "page-flow-example",
-            "demoId": "main"
-          }
-        },
-        {
-          "id": "EIzUwlNA4",
-          "blockId": "markdown-slice",
-          "data": {
-            "md": "### Figma Designs\n\nFeel free to duplicate this Figma project and make them your own! You'll just need to update the frame links in each pattern example."
-          }
-        },
-        {
-          "id": "My7HyEX-W",
-          "blockId": "figma-slice",
-          "data": {
-            "url": "https://www.figma.com/file/xKzZ8peAs1K3pM8nqHubfx/Instance-Prototype?node-id=0%3A1",
-            "height": "480",
-            "clickToInteract": false
-          }
-        }
-      ]
-    }
-  ],
-  "demoSize": "portrait"
+  "statuses": {
+    "react": "ready",
+    "design": "ready",
+    "twig": "needs-dev",
+    "web-components": "needs-dev"
+  },
+  "id": "page-flow-example",
+  "title": "Page Flow Example",
+  "demoSize": "portrait",
+  "description": "Prototyping concept built to accept Figma frame embeds next to coded components."
 }

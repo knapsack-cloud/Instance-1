@@ -1,9 +1,9 @@
+slices:
+  - data:
+      md: adfdf
+    blockId: pattern-status-table-block
+    id: AfFgN5yVn
+    sliceWidth: l
 id: status-dashboard
 title: Component Status
-slices:
-  - id: AfFgN5yVn
-    blockId: pattern-status-table-block
-    sliceWidth: l
-    data:
-      md: adfdf
 description: Manage and track the status and maturity of your patterns.
