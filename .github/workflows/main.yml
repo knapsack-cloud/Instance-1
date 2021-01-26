@@ -35,8 +35,6 @@ jobs:
       - name: Install Deps
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install --cache-folder ~/.cache/yarn --prefer-offline --frozen-lockfile
-        env:
-          CYPRESS_INSTALL_BINARY: 0 # skipping big Cypress binary download. may cause problems later & need to remove or handle other ways. trying to keep CI speedy
 
       - run: yarn build
 
