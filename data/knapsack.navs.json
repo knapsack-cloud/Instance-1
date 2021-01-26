@@ -1,96 +1,90 @@
 {
-  "primary": [],
   "secondary": [
-    { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
+    { "path": "", "name": "Docs", "id": "docs", "parentId": "root" },
     {
-      "id": "Getting-Started",
-      "name": "Getting Started",
-      "path": "/pages/Getting-Started",
-      "parentId": "docs"
-    },
-    {
-      "id": "/pages/intro",
-      "name": "Intro",
       "path": "/pages/intro",
+      "name": "Intro",
+      "id": "/pages/intro",
       "parentId": "docs"
     },
     {
-      "id": "status-dashboard",
-      "name": "Status Dashboard",
       "path": "/pages/status-dashboard",
+      "name": "Status Dashboard",
+      "id": "status-dashboard",
       "parentId": "docs"
     },
     {
-      "id": "components-asdf",
+      "path": "",
       "name": "Components",
-      "path": "",
+      "id": "components-asdf",
       "parentId": "root"
     },
     {
-      "id": "header",
-      "name": "Header",
       "path": "/pattern/header",
+      "name": "Header",
+      "id": "header",
       "parentId": "components-asdf"
     },
     {
-      "id": "footer",
-      "name": "Footer",
       "path": "/pattern/footer",
+      "name": "Footer",
+      "id": "footer",
       "parentId": "components-asdf"
     },
     {
-      "id": "link",
-      "name": "Link",
       "path": "/pattern/link",
+      "name": "Link",
+      "id": "link",
       "parentId": "components-asdf"
     },
     {
-      "id": "/pattern/button",
-      "name": "Button",
       "path": "/pattern/button",
+      "name": "Button",
+      "id": "/pattern/button",
       "parentId": "components-asdf"
     },
     {
-      "id": "/pattern/card",
-      "name": "Card",
       "path": "/pattern/card/",
+      "name": "Card",
+      "id": "/pattern/card",
       "parentId": "components-asdf"
     },
     {
-      "id": "design-tokens",
+      "path": "",
       "name": "Design Tokens",
-      "path": "",
+      "id": "design-tokens",
       "parentId": "root"
     },
     {
-      "id": "all-tokens",
-      "name": "All Tokens",
       "path": "/pages/all-tokens",
+      "name": "All Tokens",
+      "id": "all-tokens",
       "parentId": "design-tokens"
     },
     {
-      "id": "/pages/colors",
-      "name": "Colors",
       "path": "/pages/colors",
+      "name": "Colors",
+      "id": "/pages/colors",
       "parentId": "design-tokens"
     },
     {
-      "id": "/pages/spacing",
-      "name": "Spacing",
       "path": "/pages/spacing",
+      "name": "Spacing",
+      "id": "/pages/spacing",
       "parentId": "design-tokens"
     },
     {
-      "id": "prototyping",
-      "name": "Prototyping",
       "path": "",
+      "name": "Prototyping",
+      "id": "prototyping",
       "parentId": "root"
     },
     {
-      "id": "page-flow-example",
-      "name": "Page Flow Example",
       "path": "/pattern/page-flow-example",
+      "name": "Page Flow Example",
+      "id": "page-flow-example",
       "parentId": "prototyping"
     }
-  ]
+  ],
+  "primary": []
 }
