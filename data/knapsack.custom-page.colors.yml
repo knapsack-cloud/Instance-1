@@ -1,30 +1,30 @@
-id: colors
-title: Colors
 slices:
-  - id: rjeZIIQ46
-    blockId: markdown-slice
-    data:
+  - data:
       md: '## Layout'
-  - id: nJmXDmc6N
-    blockId: design-token-slice
-    data:
+    blockId: markdown-slice
+    id: rjeZIIQ46
+  - data:
       tokens:
-        tags: []
         category: color
         name: layout
+        tags: []
       demo:
         id: color-swatch
-  - id: oVnVGxuy8
-    blockId: markdown-slice
-    data:
-      md: '## Text'
-  - id: Oqh3gJkcI
     blockId: design-token-slice
-    data:
+    id: nJmXDmc6N
+  - data:
+      md: '## Text'
+    blockId: markdown-slice
+    id: oVnVGxuy8
+  - data:
       tokens:
-        tags: []
         category: color
         name: text
+        tags: []
       demo:
         id: text-color
+    blockId: design-token-slice
+    id: Oqh3gJkcI
+id: colors
+title: Colors
 description: Color tokens. Find and modify them in ./src/design-tokens/color.js

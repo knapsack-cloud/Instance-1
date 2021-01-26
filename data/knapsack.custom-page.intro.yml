@@ -1,10 +1,11 @@
+slices:
+  - data:
+      md: Click on a pattern to see what it can do.
+    blockId: markdown-slice
+    id: cyfuu27gD
+    sliceWidth: l
+  - blockId: pattern-list-block
+    id: ZDKAB4IfW
 id: intro
 title: Sample Patterns
-slices:
-  - id: ks-content-block-yVZOLgST=
-    blockId: markdown-slice
-    data:
-      md: Click a pattern to see what it can do.
-  - id: ZDKAB4IfW
-    blockId: pattern-list-block
 description: To help you get started
