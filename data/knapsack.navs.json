@@ -3,6 +3,12 @@
   "secondary": [
     { "id": "docs", "name": "Docs", "path": "", "parentId": "root" },
     {
+      "id": "Getting-Started",
+      "name": "Getting Started",
+      "path": "/pages/Getting-Started",
+      "parentId": "docs"
+    },
+    {
       "id": "/pages/intro",
       "name": "Intro",
       "path": "/pages/intro",
