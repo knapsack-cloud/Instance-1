@@ -1,4 +1,4 @@
-# Knapsack Sandbox Starter
+# Knapsack Workspace Starter
 
 ## Quick Start
 
