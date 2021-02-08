@@ -15,17 +15,17 @@ const { ksPublicDist } = require('./config');
 const isProd = process.env.NODE_ENV === 'production';
 
 // not fully fleshed out yet but at least it's a starting point
-const styleDictionaryPlugin = function () {
-  return {
-    name: 'style-dictionary',
-    // writeBundle(options) {
-    //   shelljs.exec('rm ./public/dist/tokens.js');
-    // },
-    buildStart: async () => {
-      return StyleDictionary.buildAllPlatforms();
-    },
-  };
-};
+// const styleDictionaryPlugin = function () {
+//   return {
+//     name: 'style-dictionary',
+//     // writeBundle(options) {
+//     //   shelljs.exec('rm ./public/dist/tokens.js');
+//     // },
+//     buildStart: async () => {
+//       return StyleDictionary.buildAllPlatforms();
+//     },
+//   };
+// };
 
 export default {
   input: [
@@ -41,7 +41,7 @@ export default {
     clearScreen: false,
   },
   plugins: [
-    styleDictionaryPlugin(),
+    // styleDictionaryPlugin(),
     json(),
     styles({
       minimize: isProd,
