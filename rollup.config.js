@@ -30,7 +30,6 @@ const isProd = process.env.NODE_ENV === 'production';
 export default {
   input: [
     './src/index.js',
-    './src/tokens.js',
   ],
   output: {
     dir: ksPublicDist,
