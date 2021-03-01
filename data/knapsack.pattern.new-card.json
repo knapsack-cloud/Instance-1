@@ -1,0 +1,36 @@
+{
+  "id": "new-card",
+  "title": "New Card",
+  "description": "Newest components",
+  "statuses": { "design": "ready", "react": "needs-dev" },
+  "templates": [],
+  "tabs": [
+    { "type": "subPage", "id": "overview" },
+    { "type": "subPage", "id": "A11y" }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "slices": [
+        {
+          "id": "ks-content-block-8atBNJPL_N",
+          "blockId": "markdown-slice",
+          "data": {
+            "md": "\n\n## About\n\n**Cards** contain content and actions about a single subject.\n\n## Usage\nCards are surfaces that display content and actions on a single topic.\n\nThey should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.\n\n\n### Principles\n\n![](https://knapsack.imgix.net/site/ks-demo-bootstrap/screen-shot-2021-01-22-at-12.09.20-pm-nrn-uhozh.png?w=700&auto=compress)\n\n## Figma Design Resources\n\nSee the example below for basic breakdown of the Bootstrap Card. Concepts shown include:\n\n* Basic Card Anatomy\n* Spacing Tokens Used\n* Border-Color & Border-Radius Tokens Used\n"
+          }
+        },
+        {
+          "id": "ks-content-block-odqp_23xMO",
+          "blockId": "figma-slice",
+          "data": {
+            "clickToInteract": false,
+            "height": "900",
+            "url": "https://www.figma.com/file/foaZmmovAPpY3ZuxYOBobB/Knapsack-Demonstration-Copy?node-id=0%3A1"
+          }
+        }
+      ]
+    },
+    { "title": "A11y", "id": "A11y", "slices": [] }
+  ]
+}
