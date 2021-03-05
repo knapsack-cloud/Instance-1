@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.0...v1.0.1) (2021-03-05)
+
+
+### Bug Fixes
+
+* add missing Babel dependency ([0709fb2](https://github.com/knapsack-cloud/sandbox-starter/commit/0709fb2446d7d7253901cbaf275cf2abe11260ea))
+
 # 1.0.0 (2020-08-18)
 
 
