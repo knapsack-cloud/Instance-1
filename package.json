@@ -19,6 +19,7 @@
     "test": "run-s --print-name *:test"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.12.13",
     "http-proxy-middleware": "^1.0.5",
     "browser-sync": "^2.26.10",
     "@babel/cli": "^7.8.4",
