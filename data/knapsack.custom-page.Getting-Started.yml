@@ -1,24 +1,57 @@
-id: Getting-Started
-title: Getting Started
-description: How to use your Knapsack workspace
 slices:
-  - id: ks-content-block-DHA-Mc-r0d
-    blockId: markdown-slice
-    data:
+  - data:
       md: >-
-        ## Welcome
+        ## Welcome to your Knapsack workspace!
 
-        Welcome to your Knapsack workspace! As you get acclimated, follow the
-        guidance below to try out the key features available to you.
+        Let's get you set up and acclimated.
 
+
+        <br>
 
         <br>
 
+
+        ### Introduction to Knapsack 
+
+        Knapsack is an enterprise-grade design system platform connecting design
+        and code for teams of every size. The platform will help you keep your
+        design and code aligned so you can build once and ship fast. As you
+        connect your system assets (designs, tokens, code, documentation),
+        Knapsack will become a real-time, central source of truth you can trust
+        to cut out conflicts and rework and ship the best version of your
+        vision.
+
         <br>
+
+        </br>
+
+
+        ### Help Us Help You
+
+        We are here to help and learn from you as you dig in. In addition to our
+        [self-service guides and resources](https://help@knapsack.cloud), you
+        have direct access to our team of design system experts. Reach out to
+        via [email](mailto:help@knapasck.cloud) or via our [Help
+        site](https://help.knapsack.cloud) and we'll be happy to hop on a call -
+        whether it's to troubleshoot or just to geek out about system
+        strategies, tactics, and challenges. There's no question to small or
+        novice - we're all in this together!
+    blockId: markdown-slice
+    id: D13lVNukIV
+  - data:
+      md: >-
+        ## Getting Started Guide
+
+        Follow the steps below to get up and running. Leverage the resources
+        available in our [Knowledge Base](https://help.knapsack.cloud) as you
+        go.
+
+        <br>
+
+        </br>
 
 
         ### Step 1: Personalize your profile
-
 
         Knapsack is all about cross functional collaboration around your code.
         Personalizing your profile will help your team interact with you, so add
@@ -27,7 +60,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 2: Set up to run Knapsack locally
@@ -44,7 +77,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 3: Explore the connected code repository
@@ -62,7 +95,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 4: Add / Change design tokens
@@ -80,7 +113,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 5: Add your own components
@@ -97,7 +130,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 6: Add / Change documentation
@@ -113,7 +146,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         Refer to the [Help documentation
@@ -123,7 +156,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 7: Propose a change (Cloud UI only)
@@ -145,7 +178,7 @@ slices:
 
         <br>
 
-        <br>
+        </br>
 
 
         ### Step 8: Share, collaborate and grow!
@@ -153,3 +186,8 @@ slices:
         Now that you're starting to make this workspace your own, add
         collaborators and continue to build out your processes for working *on*
         and *with* your design system using your Knapsack workspace.
+    blockId: markdown-slice
+    id: ks-content-block-DHA-Mc-r0d
+id: Getting-Started
+title: Getting Started
+description: How to use your Knapsack workspace
