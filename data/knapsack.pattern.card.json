@@ -40,15 +40,7 @@
                   "demoId": "primary",
                   "patternId": "button"
                 }
-              ],
-              "Children": [
-                {
-                  "templateId": "react",
-                  "demoId": "primary",
-                  "patternId": "button"
-                }
-              ],
-              "bloomSlot": []
+              ]
             },
             "props": {
               "cardBody": "Cards are great for sectioning content in a layout. They inform visitors of various pathways they could take to find what they need.",
@@ -68,7 +60,7 @@
       "templateLanguageId": "react",
       "spec": {
         "slots": {
-          "Children": {
+          "children": {
             "title": "Children",
             "description": "Bottom of the card"
           }
