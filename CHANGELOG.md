@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.1...v1.0.2) (2021-03-11)
+
+
+### Bug Fixes
+
+* Improved Getting Started Page ([34d14d1](https://github.com/knapsack-cloud/sandbox-starter/commit/34d14d1d6ba2c04c34d2acda9d06b97b90b47745)), closes [#12](https://github.com/knapsack-cloud/sandbox-starter/issues/12)
+
 ## [1.0.1](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.0...v1.0.1) (2021-03-05)
 
 
