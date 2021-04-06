@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.2...v1.0.3) (2021-04-06)
+
+
+### Bug Fixes
+
+* blank assetSetIds array ([a19ecbb](https://github.com/knapsack-cloud/sandbox-starter/commit/a19ecbb989e978d55428abb7398c4c3faba41da7))
+
 ## [1.0.2](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.1...v1.0.2) (2021-03-11)
 
 
