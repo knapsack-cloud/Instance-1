@@ -116,7 +116,6 @@
           "type": "data"
         }
       },
-      "assetSetIds": [],
       "templateLanguageId": "react",
       "spec": {
         "slots": {},
