@@ -6,9 +6,9 @@ import { terser } from 'rollup-plugin-terser';
 import path from 'path';
 import styles from 'rollup-plugin-styles';
 
-const StyleDictionary = require('style-dictionary').extend(
-  './style-dictionary.config.js',
-);
+// const StyleDictionary = require('style-dictionary').extend(
+//   './style-dictionary.config.js',
+// );
 
 const { ksPublicDist } = require('./config');
 

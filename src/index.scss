@@ -1,4 +1,5 @@
 @import './normalizer.scss';
+@import '../ks-public/dist/design-tokens.scss'; // Import design tokens
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
