@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.3...v1.0.4) (2021-04-15)
+
+
+### Bug Fixes
+
+* design tokens no longer handled in rollup ([1b2b246](https://github.com/knapsack-cloud/sandbox-starter/commit/1b2b246e85b5f4d6eee4f455d14e15dcd5aff3b5))
+* remove unused tokens.js file and config ([fd2fa41](https://github.com/knapsack-cloud/sandbox-starter/commit/fd2fa411c467b9c88fa4e88321e16732cd31ee4e))
+* style dictionary build ([4812732](https://github.com/knapsack-cloud/sandbox-starter/commit/4812732a1699617345761a365c69bdcf9e3a90f6)), closes [#8](https://github.com/knapsack-cloud/sandbox-starter/issues/8)
+
 ## [1.0.3](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.2...v1.0.3) (2021-04-06)
 
 
