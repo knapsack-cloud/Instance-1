@@ -1,7 +1,7 @@
 {
   "name": "@knapsack-cloud/sandbox-starter",
   "private": true,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Knapsack Sandbox Starter",
   "license": "UNLICENSED",
   "scripts": {

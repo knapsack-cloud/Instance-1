@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.4...v1.0.5) (2021-05-08)
+
+
+### Bug Fixes
+
+* issue with start before running build ([533929b](https://github.com/knapsack-cloud/sandbox-starter/commit/533929b5f3116f29f188f23190b4a14998bd2e5d))
+
 ## [1.0.4](https://github.com/knapsack-cloud/sandbox-starter/compare/v1.0.3...v1.0.4) (2021-04-15)
 
 
