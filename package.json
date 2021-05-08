@@ -13,7 +13,7 @@
     "ks:serve": "NODE_ENV=production KNAPSACK_PORT=${PORT} knapsack serve",
     "ks:test": "knapsack test",
     "ks:start": "knapsack start",
-    "prep": "([ -f ./ks-public/dist/index.css ] || yarn ui:build) && yarn sd:build",
+    "prep": "([ -f ./ks-public/dist/index.css ] || yarn sd:build && yarn ui:build)",
     "start": "yarn prep && run-p *:watch ks:start",
     "watch": "run-p ui:watch",
     "test": "run-s --print-name *:test",
